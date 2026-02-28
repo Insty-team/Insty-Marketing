@@ -41,7 +41,7 @@ cp .env.example .env
 | `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/apikey) → API 키 만들기 | AI 스크립트 생성 |
 | `NOTION_TOKEN` | [Notion Integrations](https://www.notion.so/my-integrations) → 새 통합 만들기 | Notion DB 저장 |
 
-### 3. 실행
+### 3. 실행 (로컬)
 
 ```bash
 # 키워드 생성 (최초 1회 또는 월 1회)
@@ -55,16 +55,27 @@ python3 -m scripts.run_script_gen "https://www.youtube.com/watch?v=VIDEO_ID"
 
 # 전체 파이프라인 (발굴 → 자막 → 스크립트 → 저장)
 python3 -m scripts.run_pipeline
+
+# 콘셉트 지정
+python3 -m scripts.run_pipeline --concept numbered_tips
+python3 -m scripts.run_pipeline --concept numbered_lessons
+
+# 주간 10개 모드 (Talking 5 + Numbered 5)
+python3 -m scripts.run_pipeline --mode all
 ```
 
-### 4. Docker로 실행
+### 4. Docker로 실행 (권장)
 
 ```bash
 # .env 파일 준비 후
-docker compose up -d          # 크론 모드 (주 3회 자동 실행)
-docker compose run pipeline manual     # 수동 전체 실행
-docker compose run pipeline discovery  # 발굴만
-docker compose run pipeline keywords   # 키워드 갱신
+docker compose build                              # 이미지 빌드
+docker compose up -d                               # 크론 모드 (주 3회 자동 실행)
+docker compose run --rm pipeline manual            # 수동 전체 실행
+docker compose run --rm pipeline manual --concept numbered_tips  # numbered 포맷
+docker compose run --rm pipeline weekly            # 주간 10개 (talking 5 + numbered 5)
+docker compose run --rm pipeline discovery         # 발굴만
+docker compose run --rm pipeline keywords          # 키워드 갱신
+docker compose logs -f                             # 로그 확인
 ```
 
 ## 프로젝트 구조
@@ -87,9 +98,11 @@ scripts/
   run_script_gen.py       — 스크립트 생성 단독 실행
   run_keyword_refresh.py  — 키워드 갱신
 prompts/
-  reels_tutorial.txt      — 튜토리얼 콘셉트 프롬프트
-  reels_tips.txt          — 팁 리스트 콘셉트 프롬프트
-  reels_celebrity.txt     — 유명인 레슨 콘셉트 프롬프트
+  reels_tutorial.txt          — 튜토리얼 콘셉트 (talking head)
+  reels_tips.txt              — 팁 리스트 콘셉트 (talking head)
+  reels_celebrity.txt         — 유명인 레슨 콘셉트 (talking head)
+  reels_numbered_tips.txt     — 넘버링 팁 (자막 + 음악)
+  reels_numbered_lessons.txt  — 넘버링 레슨 (자막 + 음악)
 output/
   csv/                    — CSV 백업 (gitignore)
   logs/                   — 실행 로그 (gitignore)
@@ -99,11 +112,20 @@ tests/                    — 테스트
 
 ## 스크립트 콘셉트
 
+### Talking Head (직접 말하기)
 | 콘셉트 | 프롬프트 | 구조 | 적합한 영상 |
 |---|---|---|---|
 | `tutorial` | `reels_tutorial.txt` | Hook → Why → How → Summary → CTA | 도구 튜토리얼, 가이드 |
 | `tips` | `reels_tips.txt` | Hook → Why → Tip1 → Tip2 → Tip3 → CTA | 팁 모음, 비교 영상 |
 | `celebrity` | `reels_celebrity.txt` | Hook → Why → Lesson → Application → CTA | 인터뷰, 강연 |
+
+### Numbered (자막 + B-roll + 음악)
+| 콘셉트 | 프롬프트 | 구조 | 적합한 영상 |
+|---|---|---|---|
+| `numbered_tips` | `reels_numbered_tips.txt` | Hook → 4-7 numbered items → CTA | 도구 비교, 꿀팁 |
+| `numbered_lessons` | `reels_numbered_lessons.txt` | Hook → 3-5 numbered lessons → CTA | 유명인 인사이트 |
+
+> **Numbered 포맷**: 말하기 영상 없이 텍스트 오버레이 + 작업하는 영상/이동하는 영상 + 배경 음악으로 제작 가능. 촬영 시간 절약!
 
 ## 필터링 기준
 
