@@ -1,6 +1,6 @@
 # YouTube
 google-api-python-client==2.114.0
-youtube-transcript-api==0.6.3
+youtube-transcript-api>=1.2.4
 
 # AI
 google-generativeai==0.8.4

@@ -1,16 +1,14 @@
-"""YouTube 자막 추출 (youtube-transcript-api)."""
+"""YouTube 자막 추출 (youtube-transcript-api v1.x)."""
 
 import logging
 from typing import Optional
 
 from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api._errors import (
-    NoTranscriptFound,
-    TranscriptsDisabled,
-    VideoUnavailable,
-)
 
 logger = logging.getLogger(__name__)
+
+# 싱글톤 클라이언트
+_ytt = YouTubeTranscriptApi()
 
 
 def extract_transcript(
@@ -29,37 +27,20 @@ def extract_transcript(
         자막 텍스트 (타임스탬프 포함) 또는 None
     """
     try:
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-
-        # 수동 자막 우선, 없으면 자동 생성 자막
-        transcript = None
-        try:
-            transcript = transcript_list.find_manually_created_transcript(languages)
-        except NoTranscriptFound:
-            try:
-                transcript = transcript_list.find_generated_transcript(languages)
-            except NoTranscriptFound:
-                logger.warning(f"자막 없음: {video_id} (언어: {languages})")
-                return None
-
-        entries = transcript.fetch()
+        transcript = _ytt.fetch(video_id, languages=list(languages))
 
         if include_timestamps:
             lines = []
-            for entry in entries:
-                ts = _seconds_to_timestamp(entry["start"])
-                text = entry["text"].replace("\n", " ")
+            for snippet in transcript.snippets:
+                ts = _seconds_to_timestamp(snippet.start)
+                text = snippet.text.replace("\n", " ")
                 lines.append(f"[{ts}] {text}")
             return "\n".join(lines)
         else:
-            return " ".join(entry["text"].replace("\n", " ") for entry in entries)
+            return " ".join(
+                snippet.text.replace("\n", " ") for snippet in transcript.snippets
+            )
 
-    except TranscriptsDisabled:
-        logger.warning(f"자막 비활성화: {video_id}")
-        return None
-    except VideoUnavailable:
-        logger.warning(f"영상 접근 불가: {video_id}")
-        return None
     except Exception as e:
         logger.error(f"자막 추출 실패 [{video_id}]: {e}")
         return None
@@ -75,14 +56,11 @@ def extract_transcript_with_segments(
         [{"start": float, "duration": float, "text": str}, ...]
     """
     try:
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-        transcript = None
-        try:
-            transcript = transcript_list.find_manually_created_transcript(languages)
-        except NoTranscriptFound:
-            transcript = transcript_list.find_generated_transcript(languages)
-
-        return transcript.fetch()
+        transcript = _ytt.fetch(video_id, languages=list(languages))
+        return [
+            {"start": s.start, "duration": s.duration, "text": s.text}
+            for s in transcript.snippets
+        ]
     except Exception as e:
         logger.error(f"세그먼트 추출 실패 [{video_id}]: {e}")
         return None
