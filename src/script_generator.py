@@ -77,7 +77,7 @@ def _generate_with_gemini(prompt: str) -> Optional[dict]:
         raise ValueError("GEMINI_API_KEY가 설정되지 않았습니다.")
 
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     try:
         response = model.generate_content(prompt)

@@ -56,7 +56,7 @@ def generate_keywords(count: int = 100) -> dict[str, list[str]]:
     persona_text = PERSONA_DOC.read_text(encoding="utf-8")
 
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     prompt = KEYWORD_GEN_PROMPT.format(persona=persona_text, count=count)
 
