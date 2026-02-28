@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  pipeline:
+    build: .
+    container_name: insty-pipeline
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
+      - ./prompts:/app/prompts
+    restart: unless-stopped
+    # 기본: cron 모드 (백그라운드 스케줄 실행)
+    # 수동 실행: docker compose run pipeline manual
+    # 단일 스텝 실행:
+    #   docker compose run pipeline discovery
+    #   docker compose run pipeline script

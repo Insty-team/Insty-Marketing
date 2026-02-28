@@ -1,0 +1,12 @@
+# YouTube
+google-api-python-client==2.114.0
+youtube-transcript-api==0.6.3
+
+# AI
+google-generativeai==0.8.4
+
+# Notion
+notion-client==2.2.1
+
+# Utilities
+python-dotenv==1.0.1

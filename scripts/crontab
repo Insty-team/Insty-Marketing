@@ -1,0 +1,3 @@
+# 파이프라인 크론잡 (컨테이너 내부)
+# 월/수/금 00:00 UTC (09:00 KST)
+0 0 * * 1,3,5 cd /app && python -m scripts.run_pipeline >> /app/output/logs/cron.log 2>&1
