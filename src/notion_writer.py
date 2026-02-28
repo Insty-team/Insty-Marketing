@@ -88,9 +88,40 @@ def _script_to_blocks(script: dict) -> list[dict]:
                 },
             })
 
+    # Numbered items (numbered_tips / numbered_lessons 콘셉트)
+    items = script.get("items", [])
+    if items:
+        blocks.append({
+            "object": "block",
+            "type": "heading_3",
+            "heading_3": {
+                "rich_text": [{"type": "text", "text": {"content": "Items"}}],
+            },
+        })
+        for item in items:
+            num = item.get("number", "")
+            text = item.get("text", "")
+            dur = item.get("duration", "")
+            ts = item.get("source_timestamp", "")
+            line = f"{num}. {text}"
+            if dur:
+                line += f" ({dur})"
+            if ts:
+                line += f" [Source: {ts}]"
+            blocks.append({
+                "object": "block",
+                "type": "numbered_list_item",
+                "numbered_list_item": {
+                    "rich_text": [{"type": "text", "text": {"content": line[:2000]}}],
+                },
+            })
+
     # Caption
     caption = script.get("caption", "")
     if caption:
+        if isinstance(caption, list):
+            caption = "\n".join(str(c) for c in caption)
+        caption = str(caption)
         blocks.append({
             "object": "block",
             "type": "heading_3",
@@ -111,6 +142,10 @@ def _script_to_blocks(script: dict) -> list[dict]:
     # Hashtags
     hashtags = script.get("hashtags", "")
     if hashtags:
+        # Gemini가 리스트로 반환하는 경우 문자열로 변환
+        if isinstance(hashtags, list):
+            hashtags = " ".join(str(h) for h in hashtags)
+        hashtags = str(hashtags)
         blocks.append({
             "object": "block",
             "type": "heading_3",
@@ -129,6 +164,9 @@ def _script_to_blocks(script: dict) -> list[dict]:
     # CTA Keyword
     cta_kw = script.get("cta_keyword", "")
     if cta_kw:
+        if isinstance(cta_kw, list):
+            cta_kw = " ".join(str(k) for k in cta_kw)
+        cta_kw = str(cta_kw)
         blocks.append({
             "object": "block",
             "type": "heading_3",

@@ -6,6 +6,7 @@
 
 import json
 import logging
+import time
 from pathlib import Path
 from typing import Optional
 
@@ -29,7 +30,7 @@ def generate_reels_script(
         transcript: 타임스탬프 포함 자막 텍스트
         video_title: 원본 영상 제목
         video_url: 원본 영상 URL
-        concept: 스크립트 콘셉트 (tutorial, tips, celebrity)
+        concept: 스크립트 콘셉트 (tutorial, tips, celebrity, numbered_tips, numbered_lessons)
         backend: AI 백엔드 강제 지정 (None이면 설정값 사용)
 
     Returns:
@@ -79,21 +80,29 @@ def _generate_with_gemini(prompt: str) -> Optional[dict]:
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel("gemini-2.5-flash")
 
-    try:
-        response = model.generate_content(prompt)
-        text = response.text.strip()
+    for attempt in range(3):
+        try:
+            response = model.generate_content(prompt)
+            text = response.text.strip()
 
-        # JSON 추출
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+            # JSON 추출
+            if text.startswith("```"):
+                text = text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
 
-        script = json.loads(text)
-        logger.info("Reels 스크립트 생성 완료 (Gemini)")
-        return script
+            script = json.loads(text)
+            logger.info("Reels 스크립트 생성 완료 (Gemini)")
+            return script
 
-    except json.JSONDecodeError as e:
-        logger.error(f"스크립트 JSON 파싱 실패: {e}\n응답: {text[:500]}")
-        return None
-    except Exception as e:
-        logger.error(f"Gemini 스크립트 생성 실패: {e}")
-        return None
+        except json.JSONDecodeError as e:
+            logger.error(f"스크립트 JSON 파싱 실패: {e}\n응답: {text[:500]}")
+            return None
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str and attempt < 2:
+                wait = 25 * (attempt + 1)
+                logger.warning(f"Gemini rate limit, {wait}초 대기 후 재시도 ({attempt + 1}/3)")
+                time.sleep(wait)
+                continue
+            logger.error(f"Gemini 스크립트 생성 실패: {e}")
+            return None
+    return None

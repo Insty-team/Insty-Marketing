@@ -10,7 +10,13 @@ case "${1:-cron}" in
     ;;
   manual)
     echo "[entrypoint] Running full pipeline (manual)..."
-    python -m scripts.run_pipeline
+    shift
+    python -m scripts.run_pipeline "$@"
+    ;;
+  weekly)
+    echo "[entrypoint] Running weekly 10-script pipeline (5 talking + 5 numbered)..."
+    shift
+    python -m scripts.run_pipeline --mode all "$@"
     ;;
   discovery)
     echo "[entrypoint] Running discovery only..."
