@@ -1,5 +1,6 @@
 """Notion SDK를 이용한 Content Pipeline DB 저장."""
 
+import json
 import logging
 from typing import Optional
 
@@ -39,6 +40,113 @@ def check_duplicate(video_id: str) -> bool:
         return False
 
 
+def _script_to_blocks(script: dict) -> list[dict]:
+    """스크립트 딕셔너리를 Notion block 리스트로 변환.
+
+    각 섹션을 heading_3 + paragraph 블록으로 분리하여
+    rich_text 2000자 제한을 우회한다.
+    """
+    blocks = []
+
+    # 섹션 순서
+    section_order = [
+        "hook", "why", "how",
+        "tip1", "tip2", "tip3",
+        "lesson", "application",
+        "summary", "cta",
+    ]
+
+    for key in section_order:
+        if key not in script:
+            continue
+
+        section = script[key]
+        text = section.get("text", "")
+        dur = section.get("duration", "")
+        ts = section.get("source_timestamp", "")
+
+        header = f"{key.upper()} ({dur})"
+        if ts:
+            header += f" [Source: {ts}]"
+
+        blocks.append({
+            "object": "block",
+            "type": "heading_3",
+            "heading_3": {
+                "rich_text": [{"type": "text", "text": {"content": header}}],
+            },
+        })
+
+        # paragraph 텍스트도 2000자 제한이 있으므로 분할
+        for i in range(0, len(text), 2000):
+            chunk = text[i:i + 2000]
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {
+                    "rich_text": [{"type": "text", "text": {"content": chunk}}],
+                },
+            })
+
+    # Caption
+    caption = script.get("caption", "")
+    if caption:
+        blocks.append({
+            "object": "block",
+            "type": "heading_3",
+            "heading_3": {
+                "rich_text": [{"type": "text", "text": {"content": "Caption"}}],
+            },
+        })
+        for i in range(0, len(caption), 2000):
+            chunk = caption[i:i + 2000]
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {
+                    "rich_text": [{"type": "text", "text": {"content": chunk}}],
+                },
+            })
+
+    # Hashtags
+    hashtags = script.get("hashtags", "")
+    if hashtags:
+        blocks.append({
+            "object": "block",
+            "type": "heading_3",
+            "heading_3": {
+                "rich_text": [{"type": "text", "text": {"content": "Hashtags"}}],
+            },
+        })
+        blocks.append({
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [{"type": "text", "text": {"content": hashtags[:2000]}}],
+            },
+        })
+
+    # CTA Keyword
+    cta_kw = script.get("cta_keyword", "")
+    if cta_kw:
+        blocks.append({
+            "object": "block",
+            "type": "heading_3",
+            "heading_3": {
+                "rich_text": [{"type": "text", "text": {"content": "CTA Keyword"}}],
+            },
+        })
+        blocks.append({
+            "object": "block",
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [{"type": "text", "text": {"content": cta_kw}}],
+            },
+        })
+
+    return blocks
+
+
 def save_video(video: dict, script: Optional[dict] = None) -> Optional[str]:
     """영상 정보를 Notion DB에 저장.
 
@@ -71,22 +179,23 @@ def save_video(video: dict, script: Optional[dict] = None) -> Optional[str]:
         "Keyword": {"rich_text": [{"text": {"content": video.get("keyword", "")}}]},
     }
 
-    if script:
-        # 스크립트 전체를 JSON 문자열로
-        import json
-        script_text = json.dumps(script, ensure_ascii=False, indent=2)
-        # Notion rich_text 제한: 2000자
-        if len(script_text) > 2000:
-            script_text = script_text[:1997] + "..."
-        properties["Reels Script"] = {
-            "rich_text": [{"text": {"content": script_text}}]
+    # CTA Keyword를 property에도 저장 (짧은 텍스트)
+    if script and script.get("cta_keyword"):
+        properties["CTA Keyword"] = {
+            "rich_text": [{"text": {"content": script["cta_keyword"][:200]}}]
         }
 
+    create_args = {
+        "parent": {"database_id": NOTION_DB_ID},
+        "properties": properties,
+    }
+
+    # 스크립트는 page body blocks로 저장 (2000자 제한 우회)
+    if script:
+        create_args["children"] = _script_to_blocks(script)
+
     try:
-        page = notion.pages.create(
-            parent={"database_id": NOTION_DB_ID},
-            properties=properties,
-        )
+        page = notion.pages.create(**create_args)
         page_id = page["id"]
         logger.info(f"Notion 저장 완료: {video['title'][:50]} → {page_id}")
         return page_id
