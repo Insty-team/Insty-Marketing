@@ -1,6 +1,7 @@
 """YouTube 자막 추출 (youtube-transcript-api v1.x)."""
 
 import logging
+import time
 from typing import Optional
 
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -9,6 +10,19 @@ logger = logging.getLogger(__name__)
 
 # 싱글톤 클라이언트
 _ytt = YouTubeTranscriptApi()
+
+# IP 차단 방지용 요청 간 딜레이 (초)
+_REQUEST_DELAY = 3
+_last_request_time = 0.0
+
+
+def _rate_limit():
+    """YouTube IP 차단 방지를 위한 요청 간 딜레이."""
+    global _last_request_time
+    elapsed = time.time() - _last_request_time
+    if elapsed < _REQUEST_DELAY:
+        time.sleep(_REQUEST_DELAY - elapsed)
+    _last_request_time = time.time()
 
 
 def extract_transcript(
@@ -27,6 +41,7 @@ def extract_transcript(
         자막 텍스트 (타임스탬프 포함) 또는 None
     """
     try:
+        _rate_limit()
         transcript = _ytt.fetch(video_id, languages=list(languages))
 
         if include_timestamps:
@@ -56,6 +71,7 @@ def extract_transcript_with_segments(
         [{"start": float, "duration": float, "text": str}, ...]
     """
     try:
+        _rate_limit()
         transcript = _ytt.fetch(video_id, languages=list(languages))
         return [
             {"start": s.start, "duration": s.duration, "text": s.text}

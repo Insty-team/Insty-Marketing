@@ -9,11 +9,12 @@ Discovery → 자막 추출 → 스크립트 생성 → Notion 저장 → CSV �
 """
 
 import argparse
+import json
 import logging
 from datetime import datetime
 
 from config.keywords import get_all_keywords, get_categories, get_keywords_by_category
-from config.settings import LOG_DIR
+from config.settings import LOG_DIR, OUTPUT_DIR
 from src.youtube_discovery import search_videos
 from src.transcript_extractor import extract_transcript
 from src.script_generator import generate_reels_script
@@ -62,6 +63,7 @@ def _process_videos(videos, concept, max_videos):
         video["notion_page_id"] = page_id
         video["has_script"] = script is not None
         video["concept"] = concept
+        video["script"] = script
         processed.append(video)
 
     return processed
@@ -131,7 +133,29 @@ def main():
         processed = _process_videos(all_videos, concept, args.max_videos)
         all_processed.extend(processed)
 
-    # 4. CSV 백업
+    # 4. 스크립트 JSON 로컬 저장
+    if all_processed:
+        scripts_data = []
+        for p in all_processed:
+            if p.get("script"):
+                scripts_data.append({
+                    "video_id": p["video_id"],
+                    "title": p["title"],
+                    "url": p["url"],
+                    "channel": p["channel"],
+                    "concept": p.get("concept", ""),
+                    "score": p.get("score", 0),
+                    "script": p["script"],
+                })
+        if scripts_data:
+            ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+            scripts_path = OUTPUT_DIR / f"scripts_{ts}.json"
+            scripts_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(scripts_path, "w", encoding="utf-8") as f:
+                json.dump(scripts_data, f, ensure_ascii=False, indent=2)
+            logger.info(f"스크립트 JSON 저장: {scripts_path} ({len(scripts_data)}건)")
+
+    # 5. CSV 백업
     save_to_csv(all_videos, prefix="discovery")
     if all_processed:
         save_to_csv(all_processed, prefix="processed")
