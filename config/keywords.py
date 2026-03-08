@@ -8,38 +8,37 @@ scripts/run_keyword_refresh.py로 갱신 (월 1회 수동 실행 권장).
 # 검증 완료된 키워드 (카테고리별)
 # 형식: {"카테고리": ["keyword1", "keyword2", ...]}
 KEYWORDS: dict[str, list[str]] = {
-    "ai_tools": [
-        "Best AI tools solopreneurs",
-        "Top AI content creation",
-        "AI writing assistants compared",
-        "Generative AI art tutorial",
-        "AI video editing tools",
+    "ai_consulting": [
+        "AI consulting business solopreneur",
+        "high ticket AI services freelancer",
+        "AI strategy consultant business model",
+        "sell AI services to businesses",
     ],
-    "automation": [
-        "Zapier workflow automation tips",
-        "Make.com automation tutorial",
-        "Automate small business tasks",
-        "Freelance workflow automation setup",
-        "AI email marketing automation",
+    "micro_saas": [
+        "build micro SaaS with AI",
+        "solo founder SaaS revenue",
+        "micro SaaS side project income",
+        "vibe coding SaaS MVP",
+        "no code SaaS business",
     ],
-    "business_strategy": [
-        "AI strategy for small business",
-        "Shopify CRO optimization AI",
-        "HubSpot CRM automation guide",
-        "AI business model innovation",
+    "productized_service": [
+        "productized service business model",
+        "DesignJoy business model breakdown",
+        "unlimited service subscription business",
+        "solo founder productized agency",
     ],
-    "productivity": [
-        "AI productivity hacks for work",
-        "Time blocking for focus",
-        "Digital workflow optimization AI",
-        "AI for meeting summaries",
+    "ai_agents": [
+        "AI agents run my business",
+        "AI agent automation business",
+        "n8n AI agent workflow",
+        "build AI agent team solopreneur",
+        "AI employee replacement solopreneur",
     ],
-    "solopreneur": [
-        "Solopreneur business growth strategies",
-        "Freelance business scaling tips",
-        "Build a solo online business",
-        "Side project management AI",
-        "Small team lead productivity",
+    "solo_founder": [
+        "solo founder million dollar exit",
+        "one person business AI revenue",
+        "solopreneur $10K MRR",
+        "AI powered one person company",
     ],
 }
 
