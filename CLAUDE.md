@@ -5,6 +5,13 @@
 - **슬로건**: "Solve your problem with the right AI service."
 - **상세 BM**: `docs/what_is_insty.md` 참조
 
+## 현재 Phase
+- **Phase 1**: AI 세일즈 파이프라인 구축 대행 (한국 1인 사업자)
+- **듀얼 트랙**: 서비스→한국, 콘텐츠/플랫폼→북미
+- **목표**: 4주 안에 월 $1,000 서버비 충당
+- **전략**: `pipeline/strategy/phase1-plan.md` 참조
+- **서비스 메뉴**: `pipeline/team-sales/service-menu.md` 참조
+
 ## 프로젝트 지식 (docs/)
 > 새 세션 시작 시 필요한 문서를 `docs/`에서 Read로 로드할 것.
 > 프로젝트 지식은 반드시 `docs/`에 저장 (git 동기화 대상).
@@ -14,6 +21,10 @@
 - `docs/debugging.md` — 반복 문제와 해결책
 - `docs/progress.md` — 진행 중 작업 / 브랜치 상태
 - `docs/mcp-setup.md` — MCP 서버 설정 가이드 (머신 세팅 시 참조)
+
+## Claude Code 플레이북 (knowledge/)
+> 에이전트 활용, 프롬프팅, 비용 최적화 등 참고 지식.
+> 필요 시 `knowledge/` 폴더에서 Read. 전체 목록: `knowledge/README.md`
 
 ## 해야 할 것 (Do)
 - 한국어 응답 (코드/기술 용어는 영어)
@@ -31,6 +42,12 @@
 - **Explore**: 코드베이스 탐색에만 사용
 - **Plan**: 3개 이상 파일 수정 시 먼저 사용
 - **general-purpose**: 웹 리서치에만 사용
+
+## 비용 최적화 습관
+- 작업 전환 시 `/clear`로 컨텍스트 초기화
+- 단순 작업 (JSON 변환, 형식 변환)은 Haiku 모델 사용
+- 광범위한 요청 대신 구체적 범위 지정 (예: "src/api/ 에러 핸들링 분석")
+- verbose 출력이 많은 작업은 서브에이전트에 위임
 
 ## 컨텍스트 유지 전략 (Auto-Compact 대응)
 
@@ -78,7 +95,9 @@ output/csv/     — CSV 백업 (gitignore)
 output/logs/    — 실행 로그 (gitignore)
 tests/          — 테스트
 docs/           — 프로젝트 지식 (git 동기화)
-.claude/        — Claude Code 설정 (hooks, settings)
+knowledge/      — Claude Code 플레이북 (레벨 1~5, 캡스톤)
+pipeline/       — Phase 1 세일즈 파이프라인 (전략, 팀별 플레이북)
+.claude/        — Claude Code 설정 (hooks, settings, rules)
 ```
 
 ## Docker 실행 방법
