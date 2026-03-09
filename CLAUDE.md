@@ -97,6 +97,7 @@ tests/          — 테스트
 docs/           — 프로젝트 지식 (git 동기화)
 knowledge/      — Claude Code 플레이북 (레벨 1~5, 캡스톤)
 pipeline/       — Phase 1 세일즈 파이프라인 (전략, 팀별 플레이북)
+agents/         — AI 에이전트 팀 시스템 (CEO + 4개 팀, 고객 템플릿)
 .claude/        — Claude Code 설정 (hooks, settings, rules)
 ```
 
