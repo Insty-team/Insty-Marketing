@@ -29,3 +29,7 @@ Thumbs.db
 
 # Claude Code (local)
 .claude/worktrees/
+
+# Temp files
+temp
+templog.txt

@@ -1,4 +1,4 @@
-# Claude로 콘텐츠 자동화 파이프라인 만든 이야기 (상세 버전)
+dho# Claude로 콘텐츠 자동화 파이프라인 만든 이야기 (상세 버전)
 
 > 포맷: Talking Head 또는 긴 영상 (3-5분) / YouTube Shorts or 카루셀로도 가능
 > 타겟: AI solopreneur, 1인 창업가, 콘텐츠 크리에이터
