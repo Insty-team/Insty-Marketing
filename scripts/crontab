@@ -1,3 +1,6 @@
 # 파이프라인 크론잡 (컨테이너 내부)
-# 월/수/금 00:00 UTC (09:00 KST)
+# 월/수/금 00:00 UTC (09:00 KST) — 기존 콘텐츠 파이프라인
 0 0 * * 1,3,5 cd /app && python -m scripts.run_pipeline >> /app/output/logs/cron.log 2>&1
+
+# 매일 22:00 UTC (07:00 KST) — 콘텐츠 실험 파이프라인
+0 22 * * * cd /app && python -m scripts.run_experiment_pipeline >> /app/output/logs/experiment_cron.log 2>&1

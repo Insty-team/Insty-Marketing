@@ -13,6 +13,8 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 NOTION_TOKEN = os.getenv("NOTION_TOKEN", "")
 NOTION_DB_ID = os.getenv("NOTION_DB_ID", "")
+NOTION_REFERENCE_DB_ID = os.getenv("NOTION_REFERENCE_DB_ID", "")
+NOTION_GUIDE_DB_ID = os.getenv("NOTION_GUIDE_DB_ID", "")
 
 # AI Backend: "gemini" (크론잡 자동) | "claude" (수동 실행)
 AI_BACKEND = os.getenv("AI_BACKEND", "gemini")

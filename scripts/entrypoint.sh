@@ -30,6 +30,16 @@ case "${1:-cron}" in
     echo "[entrypoint] Refreshing keywords..."
     python -m scripts.run_keyword_refresh
     ;;
+  experiment)
+    echo "[entrypoint] Running content experiment pipeline..."
+    shift
+    python -m scripts.run_experiment_pipeline "$@"
+    ;;
+  reference)
+    echo "[entrypoint] Analyzing reference URL..."
+    shift
+    python -m scripts.run_reference "$@"
+    ;;
   *)
     exec "$@"
     ;;

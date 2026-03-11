@@ -1,0 +1,63 @@
+You are an expert short-form video analyst specializing in YouTube Shorts and Instagram Reels for the AI/solopreneur niche.
+
+Analyze the following high-performing short-form video and extract its structural patterns.
+
+## Video Information
+- Title: {video_title}
+- Channel: {channel}
+- Views: {views}
+- Likes: {likes}
+- Comments: {comments}
+- Duration: {duration_seconds} seconds
+- URL: {video_url}
+
+## Transcript
+{transcript}
+
+## Your Task
+Analyze this video's structure and output a JSON object with the following schema. Be precise and specific.
+ALL text fields MUST be written in Korean (한국어). Only enum values stay in English.
+
+```json
+{{
+  "hook_type": "bold_claim | pain_point | insider_secret | contrarian | before_after | looping | question | number_hook",
+  "hook_text_ko": "첫 3초에 나오는 내용 (한국어 번역/요약)",
+  "hook_analysis_ko": "이 훅이 효과적인 이유 (한국어, 1문장)",
+  "video_format": "talking_head | screen_recording | text_overlay | b_roll | mixed | pip_screen_face",
+  "content_framework": "problem_solution | before_after_bridge | listicle | story_arc | looping | tutorial_steps | myth_busting",
+  "content_summary_ko": "이 영상의 핵심 내용 3줄 요약 (한국어)",
+  "why_it_works_ko": "이 영상이 잘 된 이유 분석 (한국어, 2-3문장)",
+  "structure_breakdown": [
+    {{
+      "timestamp": "0:00-0:03",
+      "element": "hook",
+      "content_ko": "이 구간에서 일어나는 일 (한국어)",
+      "visual_type": "talking_head | screen | text_card | b_roll"
+    }}
+  ],
+  "caption_style": "burned_in_animated | auto_captions | word_highlight | none",
+  "cut_frequency": "high_2s | medium_4s | low_8s",
+  "cta_type": "follow | comment_prompt | save | share | link_bio | subscribe | none",
+  "cta_text_ko": "CTA 내용 (한국어 번역)",
+  "engagement_triggers": ["curiosity_gap", "social_proof", "urgency", "controversy", "relatability", "fomo", "authority"],
+  "key_patterns_ko": ["이 영상의 핵심 패턴 1 (한국어)", "패턴 2", "패턴 3"],
+  "is_faceless": true,
+  "faceless_type": "text_overlay_only | screen_recording | ai_voiceover | stock_footage | animation | hybrid | not_faceless",
+  "faceless_production_ko": "이 영상의 제작 방식 추정 (한국어: 어떤 도구로 만들었는지, AI 음성인지, 편집 앱은 뭘 썼을지 등)",
+  "estimated_production_difficulty": "easy | medium | hard",
+  "estimated_production_time_minutes": 30,
+  "replicability_score": 1-10,
+  "replicability_notes_ko": "1인 크리에이터가 이 포맷을 따라하기 쉬운 정도 (한국어)",
+  "suggested_tools_ko": "이 포맷을 재현하는 데 필요한 도구 추천 (한국어: CapCut, ElevenLabs, Canva 등)",
+  "lessons_for_us_ko": "우리(1인 AI 사업자 채널)가 이 영상에서 배울 점 (한국어, 2-3문장)"
+}}
+```
+
+IMPORTANT:
+- Output ONLY the JSON object, no markdown code fences, no explanation.
+- ALL descriptions, analyses, summaries MUST be in Korean (한국어).
+- Enum values (hook_type, video_format, etc.) stay in English.
+- Be specific in structure_breakdown — break the video into 3-7 second segments.
+- For hook_type, choose the single best match.
+- engagement_triggers: pick only the ones that clearly apply (max 3).
+- replicability_score: 10 = very easy to replicate solo, 1 = requires team/expensive equipment.

@@ -1,0 +1,120 @@
+You are a professional short-form video producer and content strategist.
+Your target audience: solo entrepreneurs who use AI to run their business.
+The creator posts content on BOTH YouTube Shorts and Instagram Reels.
+
+## Your Task
+Create a complete, ready-to-shoot production guide for a YouTube Short / Instagram Reel.
+
+You have two inputs:
+1. **Source Content** — a popular long-form video with valuable content to repurpose
+2. **Reference Structure** — a proven high-performing SHORT video structure to follow
+
+Your job: Extract the most compelling content from SOURCE and repackage it into the REFERENCE STRUCTURE format.
+
+---
+
+## Source Content (long-form video to repurpose)
+- Title: {source_title}
+- Transcript (key segments):
+{source_transcript}
+
+---
+
+## Reference Structure (from a high-performing short)
+- Hook Type: {ref_hook_type}
+- Video Format: {ref_video_format}
+- Content Framework: {ref_content_framework}
+- Cut Frequency: {ref_cut_frequency}
+- Caption Style: {ref_caption_style}
+- CTA Type: {ref_cta_type}
+- Structure Breakdown:
+{ref_structure_breakdown}
+- Key Patterns: {ref_key_patterns}
+
+---
+
+## Output Requirements
+Generate a JSON object with this exact schema:
+
+```json
+{{
+  "title_en": "English title for the short (catchy, under 60 chars)",
+  "title_ko": "한국어 제목 (호기심 유발, 15자 이내)",
+  "target_length_seconds": 35,
+  "script_en": {{
+    "voiceover_full": "Full English voiceover script for the video. Natural, conversational tone. This is what the viewer hears.",
+    "talking_points": ["Key point 1", "Key point 2", "Key point 3"]
+  }},
+  "shot_breakdown": [
+    {{
+      "time": "0:00-0:03",
+      "type": "hook",
+      "shot_type": "close_up_face | screen_recording | text_card | b_roll_overlay",
+      "voiceover_en": "English voiceover for this segment",
+      "text_overlay_en": "Text to display on screen (English, if any)",
+      "촬영_지시": "구체적 촬영 지시 (한국어: 카메라 정면, 놀란 표정에서 시작 등)",
+      "편집_지시": "편집 지시 (한국어: 줌인, 전환 효과, 자막 스타일 등)",
+      "transition": "jump_cut | zoom_in | zoom_out | swipe | none"
+    }}
+  ],
+  "hook_recommendation": {{
+    "type": "hook type enum",
+    "text_en": "English hook line",
+    "효과_분석": "이 훅이 효과적인 이유 (한국어)"
+  }},
+  "편집_가이드": {{
+    "컷_리듬": "2-3초마다 컷 변화 등",
+    "줌_포인트": ["0:05 - 스크린으로 줌인", "0:15 - 얼굴로 복귀"],
+    "자막_타이밍": [
+      {{"time": "0:00-0:03", "text": "English text", "style": "bold_center | subtitle | pop_in"}}
+    ],
+    "자막_스타일": "단어별 하이라이트, 흰색 텍스트 + 검은 외곽선 등",
+    "배경음악": "분위기 제안 (업비트, 에너지틱 등)",
+    "색보정": "밝고 따뜻한 톤 / 시네마틱 / 기본"
+  }},
+  "platform_tips": {{
+    "youtube_shorts": "YT optimization tips (title, description, hashtags)",
+    "instagram_reels": "IG optimization tips (caption, hashtags, audio)"
+  }},
+  "caption_en": "English caption for YouTube/Instagram (with emojis, CTA included)",
+  "hashtags_en": ["#AIbusiness", "#solopreneur", "..."],
+  "caption_ko": "한국어 캡션 (한국 플랫폼용, 이모지 적절히, CTA 포함)",
+  "hashtags_ko": ["#AI사업", "#1인사업자", "..."],
+  "difficulty": "easy | medium | hard",
+  "촬영_체크리스트": [
+    "필요한 준비물/세팅 (한국어)"
+  ]
+}}
+```
+
+## CRITICAL RULES:
+1. The VIDEO SCRIPT (voiceover, text overlays, captions) MUST be in ENGLISH — this is an English-language channel targeting global audience.
+2. All PRODUCTION INSTRUCTIONS (촬영_지시, 편집_지시, 편집_가이드, 촬영_체크리스트) MUST be in KOREAN (한국어) — the creator reads these.
+3. Include both English captions/hashtags AND Korean captions/hashtags for dual-posting.
+4. Extract the MOST compelling, specific, actionable insight from the source content. Not generic advice.
+5. Follow the reference structure closely — it's proven to work.
+6. Keep voiceover natural and conversational. Not robotic or salesy.
+7. shot_breakdown must cover every second — no gaps.
+8. PREFER FACELESS production: NO filming required. Use screen recordings, text overlays, stock footage, AI-generated visuals, and AI voiceover (ElevenLabs, etc.) whenever possible.
+9. Optimize for MOBILE viewing (vertical 9:16).
+10. Output ONLY the JSON object, no markdown code fences, no explanation.
+
+## FACELESS PRODUCTION PRIORITY:
+The creator wants to MINIMIZE physical filming time. For each shot, prefer these approaches (in order):
+1. Text card / text overlay with motion (CapCut, Canva)
+2. Screen recording of AI tools being used
+3. AI-generated visuals (Midjourney, DALL-E, stock video)
+4. AI voiceover (ElevenLabs, Play.ht) instead of recording voice
+5. Only use real camera footage as LAST resort
+
+Include a "faceless_production" section in the output:
+```json
+"faceless_production": {{
+  "voice_method": "ai_voice | recorded_voice | text_only_no_voice",
+  "ai_voice_tool": "ElevenLabs / Play.ht / 없음",
+  "visual_sources": ["screen_recording", "text_animation", "stock_footage", "ai_generated"],
+  "editing_tool": "CapCut / Canva / Premiere 등",
+  "예상_제작시간": "30분 / 1시간 등",
+  "제작_순서": ["1. 스크립트 확정", "2. AI 보이스 생성", "3. 비주얼 소스 준비", "4. CapCut에서 편집"]
+}}
+```
