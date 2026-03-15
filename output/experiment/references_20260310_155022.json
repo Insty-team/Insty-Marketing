@@ -1,0 +1,164 @@
+[
+  {
+    "video_id": "z6g9B0Nt7P4",
+    "title": "How do we use YouTube’s latest AI feature?#tutorialyoutube #tutorial #youtube #shorts",
+    "channel": "reza tito",
+    "channel_id": "UC-2C4GOyCo3CrBKy8VzrDRA",
+    "description": "🚀 YouTube Shorts New AI Tools! \n\n.\n.\n\nYouTube just dropped a massive update for Shorts creators! In this video, we explore the new generative AI tools powered by Google DeepMind's Veo. Creating high-quality content is now easier than ever.\nKey Features:\n• AI Playground: Your new home for gen AI creation with pre-filled prompts.\n• Dream it, Prompt it (Veo): Generate cinematic video clips from text or reference photos.\n• Edit with AI: Automatically transform your raw footage into a polished first draft.\n• Photo to Video: Bring your still gallery photos to life instantly.\n\n@YouTube @youtubecreators",
+    "published_at": "2026-02-20T09:21:34Z",
+    "thumbnail": "https://i.ytimg.com/vi/z6g9B0Nt7P4/hqdefault.jpg",
+    "url": "https://www.youtube.com/shorts/z6g9B0Nt7P4",
+    "views": 2631544,
+    "likes": 31110,
+    "comments": 355,
+    "duration_seconds": 21,
+    "duration_iso": "PT21S",
+    "keyword": "AI tool tutorial shorts",
+    "platform": "youtube_shorts",
+    "score": 38.677730601879986,
+    "analysis": {
+      "hook_type": "insider_secret",
+      "hook_text": "Screen recording of YouTube app home screen, a hand icon immediately points to the search icon.",
+      "hook_analysis": "This hook works by immediately demonstrating the first step of a new, potentially unknown feature, creating instant curiosity and positioning the creator as an expert.",
+      "video_format": "screen_recording",
+      "content_framework": "tutorial_steps",
+      "structure_breakdown": [
+        {
+          "timestamp": "0:00-0:03",
+          "element": "hook",
+          "content": "Screen recording of YouTube app. A hand pointer immediately moves towards the search icon.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:03-0:07",
+          "element": "tutorial_step_1",
+          "content": "User types 'AI' into the search bar, demonstrating searching for AI-related content.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:07-0:12",
+          "element": "tutorial_step_2",
+          "content": "A video plays; the pointer highlights the comments section, revealing a 'New AI' feature icon (star with sparkles).",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:12-0:17",
+          "element": "tutorial_step_3",
+          "content": "Tapping the AI icon reveals AI-generated questions about the video content, and the pointer scrolls through them.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:17-0:21",
+          "element": "tutorial_step_4",
+          "content": "Tapping one of the AI-generated questions makes the video automatically jump to the relevant timestamp, demonstrating the feature's utility.",
+          "visual_type": "screen"
+        }
+      ],
+      "caption_style": "none",
+      "cut_frequency": "medium_4s",
+      "cta_type": "none",
+      "cta_text": "",
+      "engagement_triggers": [
+        "curiosity_gap",
+        "fomo",
+        "authority"
+      ],
+      "key_patterns": [
+        "Immediate Value Demonstration",
+        "Visual Clarity (Pointer Focus)",
+        "Concise Step-by-Step Tutorial"
+      ],
+      "estimated_production_difficulty": "easy",
+      "replicability_score": 9,
+      "replicability_notes": "This format is highly replicable using just a mobile phone for screen recording and a simple voiceover. No complex editing or expensive equipment is required."
+    },
+    "notion_page_id": "31f82061-5704-81d2-9c2d-e9e670ca4e25"
+  },
+  {
+    "video_id": "kbPO0uS5fZQ",
+    "title": "How To Make Viral Skeleton Educational Shorts #shorts #viral #viralshorts",
+    "channel": "AI Clarity",
+    "channel_id": "UCc8xIExY72J4r0m467dc4uw",
+    "description": "These skeleton “what if” animations are going viral… and I recreated them straight from my phone using AI 👀💀\n\nWant the full step-by-step breakdown + all the prompts and reference images?\nComment AI and I’ll send you the full video 🔥\n\n#shorts #animation #viral #ai #skeleton #viralshort #viralshorts",
+    "published_at": "2026-02-11T18:39:20Z",
+    "thumbnail": "https://i.ytimg.com/vi/kbPO0uS5fZQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/shorts/kbPO0uS5fZQ",
+    "views": 54578,
+    "likes": 2344,
+    "comments": 200,
+    "duration_seconds": 45,
+    "duration_iso": "PT45S",
+    "keyword": "AI tool tutorial shorts",
+    "platform": "youtube_shorts",
+    "score": 34.00582982613689,
+    "analysis": {
+      "hook_type": "insider_secret",
+      "hook_text": "Here's how I recreated these insane skeleton animations using only my phone.",
+      "hook_analysis": "This hook immediately showcases an impressive, trending result and promises a simple, accessible method, creating curiosity and setting high expectations for the tutorial.",
+      "video_format": "mixed",
+      "content_framework": "tutorial_steps",
+      "structure_breakdown": [
+        {
+          "timestamp": "0:00-0:03",
+          "element": "hook",
+          "content": "Creator introduces the topic, promising to show how to create viral skeleton animations using only a phone, while showing examples of the animations.",
+          "visual_type": "talking_head"
+        },
+        {
+          "timestamp": "0:03-0:09",
+          "element": "problem_validation/benefits",
+          "content": "Explains the popularity and virality (millions of views) of these skeleton videos, emphasizing their simple creation with 'only two tools'.",
+          "visual_type": "b_roll"
+        },
+        {
+          "timestamp": "0:09-0:14",
+          "element": "step_1_introduction",
+          "content": "First instruction: Open ChatGPT, go to GPTs, search for 'skeleton shorts', and start a chat.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:14-0:21",
+          "element": "step_2_prompt_generation",
+          "content": "Instruction to type a wild idea (e.g., 'drinking raw eggs') into ChatGPT, showing it instantly generating six detailed image prompts. Emphasizes copying one prompt.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:21-0:30",
+          "element": "step_3_image_generation",
+          "content": "Instruction to head to Leonardo AI, paste the prompt, upload a reference image, and generate, showcasing the resulting 'super clean skeleton visuals'.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:30-0:41",
+          "element": "step_4_animation_completion",
+          "content": "Instruction for OpenArt: click video, upload the image, describe the desired motion (e.g., 'skeleton drinking raw eggs at the gym'), generate, and then shows the final smooth skeleton animation.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:41-0:45",
+          "element": "call_to_action",
+          "content": "Specific call to action: 'comment AI and I'll send you the full video with the reference'.",
+          "visual_type": "talking_head"
+        }
+      ],
+      "caption_style": "word_highlight",
+      "cut_frequency": "high_2s",
+      "cta_type": "comment_prompt",
+      "cta_text": "comment AI and I'll send you the full video with the reference",
+      "engagement_triggers": [
+        "curiosity_gap",
+        "social_proof",
+        "relatability"
+      ],
+      "key_patterns": [
+        "High-Value Skill Breakdown",
+        "Clear Step-by-Step Visual Tutorial",
+        "Specific Comment-Based Lead Magnet CTA"
+      ],
+      "estimated_production_difficulty": "medium",
+      "replicability_score": 8,
+      "replicability_notes": "A solo creator can easily replicate this with a smartphone, screen recording software, and basic video editing skills. The AI tools demonstrated are also readily accessible."
+    },
+    "notion_page_id": "31f82061-5704-811e-b2ce-d69aaa06c6dc"
+  }
+]

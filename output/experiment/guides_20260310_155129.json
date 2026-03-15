@@ -1,0 +1,118 @@
+[
+  {
+    "title_ko": "유튜브 AI 요약? 숨겨진 꿀팁으로 시간 절약!",
+    "title_en": "YouTube AI Summary: Hidden Time-Saving Tip!",
+    "target_length_seconds": 35,
+    "script_ko": {
+      "voiceover_full": "유튜브 영상 볼 시간 없으세요? 이 숨겨진 AI 기능 알면 대박입니다. 궁금한 영상 찾았는데 길어서 부담스러웠죠? 이제 이 AI 요약 버튼만 누르면 됩니다. 짠! 이렇게 긴 영상 내용이 핵심만 쏙쏙 요약됩니다. 중요한 포인트와 관련 영상 링크까지 한눈에 볼 수 있어요. AI 사업 아이디어 찾을 때 진짜 시간 절약됩니다. 어때요, 진짜 편하죠? 1인 AI 사업자분들, 이제 유튜브 리서치에 시간 낭비하지 마세요. 바로 써먹어 보세요!",
+      "talking_points": [
+        "유튜브 AI 요약 기능으로 시간 절약",
+        "긴 영상 핵심 내용 빠르게 파악 가능",
+        "1인 AI 사업자를 위한 효율적인 리서치 꿀팁"
+      ]
+    },
+    "shot_breakdown": [
+      {
+        "time": "0:00-0:06",
+        "type": "hook",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "유튜브 영상 볼 시간 없으세요? 이 숨겨진 AI 기능 알면 대박입니다.",
+        "text_overlay_ko": "유튜브 AI 요약? ⏰ 시간 순삭!",
+        "visual_instruction": "스마트폰 세로 화면을 보여주며, 검지 손가락으로 유튜브 앱 검색창을 탭. 빠르게 '유튜브 AI' 검색어 입력 후 검색하여 AI 요약 버튼이 화면에 나타나는 모습까지 보여줍니다.",
+        "transition": "none"
+      },
+      {
+        "time": "0:06-0:15",
+        "type": "demonstration_part_1",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "궁금한 영상 찾았는데 길어서 부담스러웠죠? 이제 이 AI 요약 버튼만 누르면 됩니다.",
+        "text_overlay_ko": "클릭 한 번으로 영상 요약 끝!",
+        "visual_instruction": "검색 결과에서 나타난 AI 요약 버튼을 손가락으로 탭하는 클로즈업. AI 요약 인터페이스가 화면에 로딩되는 과정을 보여줍니다.",
+        "transition": "zoom_in"
+      },
+      {
+        "time": "0:15-0:28",
+        "type": "demonstration_part_2",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "짠! 이렇게 긴 영상 내용이 핵심만 쏙쏙 요약됩니다. 중요한 포인트와 관련 영상 링크까지 한눈에 볼 수 있어요. AI 사업 아이디어 찾을 때 진짜 시간 절약됩니다.",
+        "text_overlay_ko": "핵심만 쏙쏙! 관련 영상까지!",
+        "visual_instruction": "완성된 AI 요약 전체 화면을 보여주며, 손가락으로 자연스럽게 아래로 스크롤하여 상세 내용과 연관 영상 링크들을 보여줍니다. 중요 키워드에 시각적 강조 효과 (하이라이트)를 적용합니다.",
+        "transition": "none"
+      },
+      {
+        "time": "0:28-0:35",
+        "type": "wrap_up_and_implicit_cta",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "어때요, 진짜 편하죠? 1인 AI 사업자분들, 이제 유튜브 리서치에 시간 낭비하지 마세요. 바로 써먹어 보세요!",
+        "text_overlay_ko": "지금 바로 사용해보세요! 🔥",
+        "visual_instruction": "스크롤을 멈춘 후, 요약 화면이 고정된 상태에서 마지막 멘트까지 유지합니다. (혹은 요약에서 다시 일반 검색 화면으로 부드럽게 전환)",
+        "transition": "none"
+      }
+    ],
+    "hook_recommendation": {
+      "type": "insider_secret",
+      "text_ko": "유튜브 AI 요약? 1인 사업자를 위한 숨겨진 시간 절약 꿀팁!",
+      "why_it_works": "바쁜 1인 사업자에게 필요한 '시간 절약'이라는 핵심 가치를 '숨겨진 AI 기능'과 연결하여 즉각적인 호기심을 유발합니다."
+    },
+    "editing_guide": {
+      "cut_rhythm": "5-8초마다 컷 변화 (화면 전환 없이 스크롤 등 자연스러운 흐름 유지)",
+      "zoom_points": [
+        "0:06 - AI 요약 버튼으로 살짝 줌인",
+        "0:15 - AI 요약 전체 화면으로 줌아웃 (내용을 더 보여주기 위함)"
+      ],
+      "text_overlay_timing": [
+        {
+          "time": "0:00-0:06",
+          "text": "유튜브 AI 요약? ⏰ 시간 순삭!",
+          "style": "pop_in_bold_center"
+        },
+        {
+          "time": "0:06-0:15",
+          "text": "클릭 한 번으로 영상 요약 끝!",
+          "style": "pop_in_subtitle"
+        },
+        {
+          "time": "0:15-0:28",
+          "text": "핵심만 쏙쏙! 관련 영상까지!",
+          "style": "pop_in_subtitle"
+        },
+        {
+          "time": "0:28-0:35",
+          "text": "지금 바로 사용해보세요! 🔥",
+          "style": "pop_in_bold_center"
+        }
+      ],
+      "subtitle_style": "단어별 하이라이트, 흰색 텍스트 + 검은 외곽선",
+      "music_suggestion": "경쾌하고 긍정적인 일렉트로닉 팝 (Upbeat, energetic)",
+      "color_grade": "밝고 따뜻한 톤"
+    },
+    "platform_tips": {
+      "youtube_shorts": "제목에 [AI 꿀팁], [시간 절약], [생산성] 키워드 포함. 설명에 AI 요약 기능의 장점 상세 기재 및 관련 해시태그 풍부하게 사용. 마지막 멘트를 통해 시청자가 직접 사용해보도록 유도.",
+      "instagram_reels": "캡션에 기능 사용법 요약 및 '1인 AI 사업자 필수템' 강조. 릴스 트렌드 오디오 사용 고려. 스토리 공유 유도 및 친구 태그 요청으로 확산 유도."
+    },
+    "caption_ko": "바쁜 1인 AI 사업자분들 주목! ⏰ 유튜브 영상, 이제 다 볼 필요 없어요. 숨겨진 AI 요약 기능으로 핵심만 쏙쏙 뽑아보세요. 리서치 시간 절약은 물론, 새로운 AI 사업 아이디어도 놓치지 않을 거예요! ✨ 지금 바로 써먹어보고 효율을 극대화해보세요! #AI사업 #1인사업가 #유튜브AI #시간절약 #생산성 #AI꿀팁 #사업아이디어",
+    "hashtags": [
+      "#AI사업",
+      "#1인사업자",
+      "#유튜브AI",
+      "#AI꿀팁",
+      "#시간절약",
+      "#생산성향상",
+      "#사업아이디어",
+      "#인공지능",
+      "#유튜브리서치"
+    ],
+    "difficulty": "easy",
+    "filming_checklist": [
+      "최신 버전의 유튜브 앱이 설치된 스마트폰",
+      "깔끔하고 조명 좋은 배경 (스크린 녹화 시 주변 방해 요소 제거)",
+      "스마트폰 스크린 녹화 기능 활성화 및 사용법 숙지",
+      "선명한 음성 녹음이 가능한 마이크 (스마트폰 내장 마이크도 가능)",
+      "영상 편집 소프트웨어 (컷 편집, 텍스트 오버레이, 자막, 배경음악 추가)"
+    ],
+    "reference_url": "https://www.youtube.com/shorts/z6g9B0Nt7P4",
+    "reference_title": "How do we use YouTube’s latest AI feature?#tutorialyoutube #tutorial #youtube #shorts",
+    "source_video_id": "z6g9B0Nt7P4",
+    "notion_page_id": "31f82061-5704-81f8-8d0d-e47ddd237aed"
+  }
+]

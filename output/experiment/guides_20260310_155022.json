@@ -1,0 +1,166 @@
+[
+  {
+    "title_ko": "유튜브 숨겨진 AI 기능! ⏰",
+    "title_en": "Unlock YouTube's Hidden AI Feature! Save Time!",
+    "target_length_seconds": 30,
+    "script_ko": {
+      "voiceover_full": "AI 사업자분들, 유튜브 영상 리서치에 시간 낭비는 이제 그만! 유튜브에 숨겨진 AI 기능을 아셨나요? 먼저, 유튜브 앱에서 궁금한 AI 관련 영상을 찾아보세요. 자, 댓글창을 주목! 여기 별모양 번개⚡️아이콘 보이시죠? 이게 바로 유튜브의 새로운 AI 기능이에요. 이걸 누르면 AI가 영상 내용을 요약해서 관련 질문들을 자동으로 만들어줘요. 정말 똑똑하죠? 여기서 궁금한 질문을 탭하면, 해당 내용이 시작되는 부분으로 영상이 바로 이동합니다! 콘텐츠 아이디어 찾거나 경쟁 영상 분석할 때 시간 확 줄어들겠죠? 이 꿀팁으로 여러분의 AI 사업 효율을 높여보세요! 더 많은 AI 사업 꿀팁을 원하시면, 지금 바로 구독하고 팔로우 해주세요!",
+      "talking_points": [
+        "유튜브 AI 기능으로 리서치 시간 단축",
+        "댓글창의 별모양 번개 아이콘 확인",
+        "AI 생성 질문으로 영상 내용 요약",
+        "질문 탭하면 해당 구간으로 자동 이동",
+        "AI 사업 콘텐츠 제작 및 분석에 활용"
+      ]
+    },
+    "shot_breakdown": [
+      {
+        "time": "0:00-0:03",
+        "type": "hook",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "AI 사업자분들, 유튜브 영상 리서치에 시간 낭비는 이제 그만!",
+        "text_overlay_ko": "⚡️유튜브 숨겨진 AI 기능?",
+        "visual_instruction": "유튜브 앱 메인 화면 스크린 레코딩. 손가락 포인터가 검색창 쪽으로 빠르게 이동하려 준비하는 모습.",
+        "transition": "none"
+      },
+      {
+        "time": "0:03-0:06",
+        "type": "tutorial_step_1",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "유튜브에 숨겨진 AI 기능을 아셨나요? 먼저, 궁금한 AI 관련 영상을 찾아보세요.",
+        "text_overlay_ko": "STEP 1. AI 영상 검색",
+        "visual_instruction": "손가락 포인터가 검색 아이콘을 탭하고, 검색창에 'AI'를 빠르게 타이핑하는 모습. 검색 결과 화면으로 전환.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:06-0:11",
+        "type": "tutorial_step_2",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "자, 댓글창을 주목! 여기 별모양 번개⚡️아이콘 보이시죠? 이게 바로 유튜브의 새로운 AI 기능이에요.",
+        "text_overlay_ko": "STEP 2. AI 아이콘 찾기",
+        "visual_instruction": "검색 결과 중 한 영상을 탭하여 재생. 영상이 재생되는 동안 화면을 위로 스크롤하여 댓글 섹션을 보여줌. 손가락 포인터가 댓글창 상단에 있는 별모양 번개 아이콘('새로운 AI 기능'을 의미)을 정확히 가리키고 잠시 멈춤.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:11-0:16",
+        "type": "tutorial_step_3",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "이걸 누르면 AI가 영상 내용을 요약해서 관련 질문들을 자동으로 만들어줘요. 정말 똑똑하죠?",
+        "text_overlay_ko": "STEP 3. AI 질문 확인",
+        "visual_instruction": "손가락 포인터가 별모양 번개 아이콘을 탭. AI가 생성한 질문 목록이 화면에 나타나고, 포인터가 질문들을 천천히 위아래로 스크롤하며 보여줌.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:16-0:21",
+        "type": "tutorial_step_4",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "여기서 궁금한 질문을 탭하면, 해당 내용이 시작되는 부분으로 영상이 바로 이동합니다! 콘텐츠 아이디어 찾거나 경쟁 영상 분석할 때 시간 확 줄어들겠죠?",
+        "text_overlay_ko": "STEP 4. 원하는 질문 탭!",
+        "visual_instruction": "손가락 포인터가 AI 생성 질문 중 하나를 탭. 영상이 해당 질문의 내용이 시작되는 정확한 시간대로 자동 이동하여 재생되는 것을 보여줌.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:21-0:26",
+        "type": "value_proposition",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "이 꿀팁으로 여러분의 AI 사업 효율을 높여보세요! 더 많은 AI 사업 꿀팁을 원하시면,",
+        "text_overlay_ko": "AI 사업 효율 올리는 꿀팁!",
+        "visual_instruction": "영상이 재생되는 화면 그대로 유지하거나, 이전 AI 질문 목록 화면으로 돌아가서 전체적인 기능의 유용성을 다시 강조하는 제스처 (예: 엄지척 이모지나 가리키는 손가락 아이콘 추가).",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:26-0:30",
+        "type": "call_to_action",
+        "shot_type": "screen_recording",
+        "voiceover_ko": "지금 바로 구독하고 팔로우 해주세요!",
+        "text_overlay_ko": "구독/팔로우하고 AI 사업 꿀팁 얻기!",
+        "visual_instruction": "화면 하단에 '구독' 또는 '팔로우' 버튼을 명확히 가리키는 포인터. 배경은 흐릿하게 처리하고 CTA 텍스트를 크게 강조.",
+        "transition": "none"
+      }
+    ],
+    "hook_recommendation": {
+      "type": "insider_secret",
+      "text_ko": "AI 사업자분들, 유튜브 영상 리서치에 시간 낭비는 이제 그만! 유튜브에 숨겨진 AI 기능을 아셨나요?",
+      "why_it_works": "타겟 오디언스(AI 사업자)의 고충(시간 낭비)을 언급하며, '숨겨진' AI 기능이라는 정보로 호기심을 극대화합니다."
+    },
+    "editing_guide": {
+      "cut_rhythm": "2-4초마다 컷 변화 (영상 흐름에 따라 유연하게)",
+      "zoom_points": [
+        "0:00 - 유튜브 앱 메인화면 전체 보여줌",
+        "0:04 - 검색창 입력 시 줌인",
+        "0:07 - 댓글창의 AI 아이콘 주변으로 줌인",
+        "0:12 - AI 생성 질문 목록 전체 화면",
+        "0:17 - 영상 해당 부분 재생 시 다시 전체 화면"
+      ],
+      "text_overlay_timing": [
+        {
+          "time": "0:00-0:03",
+          "text": "⚡️유튜브 숨겨진 AI 기능?",
+          "style": "pop_in_bold_center"
+        },
+        {
+          "time": "0:03-0:06",
+          "text": "STEP 1. AI 영상 검색",
+          "style": "subtitle_bottom"
+        },
+        {
+          "time": "0:06-0:11",
+          "text": "STEP 2. AI 아이콘 찾기",
+          "style": "subtitle_bottom"
+        },
+        {
+          "time": "0:11-0:16",
+          "text": "STEP 3. AI 질문 확인",
+          "style": "subtitle_bottom"
+        },
+        {
+          "time": "0:16-0:21",
+          "text": "STEP 4. 원하는 질문 탭!",
+          "style": "subtitle_bottom"
+        },
+        {
+          "time": "0:21-0:26",
+          "text": "AI 사업 효율 올리는 꿀팁!",
+          "style": "bold_center"
+        },
+        {
+          "time": "0:26-0:30",
+          "text": "구독/팔로우하고 AI 사업 꿀팁 얻기!",
+          "style": "bold_center_pop_in"
+        }
+      ],
+      "subtitle_style": "단어별 하이라이트 (노란색), 흰색 텍스트 + 검은 외곽선, 하단 중앙",
+      "music_suggestion": "업비트, 밝고 에너지틱하며 경쾌한 BGM",
+      "color_grade": "밝고 선명한 톤 유지"
+    },
+    "platform_tips": {
+      "youtube_shorts": "제목에 핵심 키워드(#유튜브AI #AI사업) 포함, 설명에 상세 팁 및 관련 영상 링크, #Shorts 필수.",
+      "instagram_reels": "캡션에 이모지와 함께 정보 요약, 관련 계정 태그(@), 릴스 트렌드 오디오 사용 고려, #AI사업자 #1인창업 해시태그 활용."
+    },
+    "caption_ko": "AI 사업 효율을 극대화하고 싶다면? 🚀 유튜브에 숨겨진 AI 기능을 활용해서 영상 리서치 시간을 확 줄여보세요! 콘텐츠 아이디어 찾기부터 경쟁 분석까지, 이 꿀팁 하나면 끝! #유튜브AI #AI사업 #1인창업 #AI활용 #사업꿀팁 #생산성향상\n\n더 많은 AI 사업 꿀팁은 👉 @[YourHandle] 팔로우!",
+    "hashtags": [
+      "#AI사업",
+      "#1인사업자",
+      "#유튜브AI",
+      "#AI활용",
+      "#생산성향상",
+      "#콘텐츠마케팅",
+      "#사업꿀팁",
+      "#유튜브꿀팁",
+      "#AI트렌드",
+      "#디지털노마드"
+    ],
+    "difficulty": "easy",
+    "filming_checklist": [
+      "최신 버전의 유튜브 앱이 설치된 스마트폰 (아이폰/안드로이드 무관)",
+      "선명한 스크린 레코딩 (내장 기능 또는 외부 앱 활용)",
+      "깨끗한 음질의 목소리 녹음 (마이크 권장)",
+      "스마트폰 거치대 (안정적인 촬영을 위해)",
+      "스크린 포인터 앱 (선택 사항, 손가락 대신 커서 사용 시)"
+    ],
+    "reference_url": "https://www.youtube.com/shorts/z6g9B0Nt7P4",
+    "reference_title": "How do we use YouTube’s latest AI feature?#tutorialyoutube #tutorial #youtube #shorts",
+    "source_video_id": "z6g9B0Nt7P4",
+    "notion_page_id": null
+  }
+]

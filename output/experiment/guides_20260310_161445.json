@@ -1,0 +1,269 @@
+[
+  {
+    "title_en": "Your AI Automations Are BROKEN! Agentic AI Changes EVERYTHING",
+    "title_ko": "AI 자동화의 판도를 바꿀 에이전트 AI!",
+    "target_length_seconds": 35,
+    "script_en": {
+      "voiceover_full": "Your AI automations are broken. And they're about to change... forever. Meet Agentic AI: you tell it *what* outcome you want, it figures out the *how*. First, it *debugs itself*. Imagine never fixing a broken workflow again. Second, natural language control, but for *real*. It asks *smart questions* BEFORE it builds. It's like hiring an AI developer. You explain the *goal*, they build it. You define the *puzzle*, it constructs every single piece, perfectly. This frees solo entrepreneurs from coding. Focus on strategy, not syntax. Stop debugging, start scaling. Your time is worth more. Want the exact guide to implementing Agentic AI in YOUR business? Comment 'AGENT' below. Unlock true automation. Get your guide to Agentic workflows now. Don't miss out on this shift. Comment 'AGENT'!",
+      "talking_points": [
+        "Traditional AI automation is inefficient.",
+        "Agentic AI automates based on *outcomes*, not *steps*.",
+        "Key benefit 1: AI debugs and self-heals workflows.",
+        "Key benefit 2: AI asks clarifying questions via natural language before building.",
+        "This is like hiring an AI developer.",
+        "Solo entrepreneurs can focus on strategy, not coding.",
+        "CTA: Comment 'AGENT' for a guide."
+      ]
+    },
+    "shot_breakdown": [
+      {
+        "time": "0:00-0:03",
+        "type": "hook",
+        "shot_type": "text_card",
+        "voiceover_en": "Your AI automations are broken. And they're about to change... forever.",
+        "text_overlay_en": "YOUR AI AUTOMATIONS ARE BROKEN",
+        "촬영_지시": "강렬한 폰트의 텍스트 카드. 화면 중앙에 텍스트가 번개처럼 나타나거나 글리치 효과로 시작.",
+        "편집_지시": "시작 시 임팩트 있는 사운드 효과와 함께 텍스트 등장. 텍스트에 미세한 진동 효과 추가. 빠른 전환.",
+        "transition": "none"
+      },
+      {
+        "time": "0:03-0:06",
+        "type": "promise_and_intro",
+        "shot_type": "text_card",
+        "voiceover_en": "Meet Agentic AI: you tell it *what* outcome you want, it figures out the *how*.",
+        "text_overlay_en": "AGENTIC AI: Tell it WHAT, not HOW",
+        "촬영_지시": "깔끔하고 세련된 텍스트 카드. 'WHAT'과 'HOW' 강조.",
+        "편집_지시": "'AGENTIC AI' 텍스트가 부드럽게 나타나고, 이어서 'WHAT'과 'HOW'가 번갈아 강조되는 애니메이션 효과. 뒤에 심플한 AI 관련 추상 그래픽 오버레이.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:06-0:09",
+        "type": "tutorial_step_1",
+        "shot_type": "ai_generated",
+        "voiceover_en": "First, it *debugs itself*. Imagine never fixing a broken workflow again.",
+        "text_overlay_en": "AI DEBUGS & SELF-HEALS",
+        "촬영_지시": "오류 아이콘(빨간 X)이 나타났다가 사라지고 초록색 체크마크로 바뀌는 간단한 애니메이션.",
+        "편집_지시": "시각적으로 명확하고 빠른 애니메이션. 텍스트는 애니메이션과 동기화되어 강조. 효과음 추가.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:09-0:12",
+        "type": "tutorial_step_2",
+        "shot_type": "screen_recording",
+        "voiceover_en": "Second, natural language control, but for *real*. It asks *smart questions* BEFORE it builds.",
+        "text_overlay_en": "SMART AI INTERVIEWS YOU",
+        "촬영_지시": "Claude (또는 유사한 AI 챗봇)가 사용자에게 질문하는 화면 녹화. 예를 들어, '어떤 목표를 달성하고 싶으신가요?', '어떤 도구를 사용하고 계신가요?' 등 질문이 빠르게 스크롤되는 모습.",
+        "편집_지시": "화면 녹화에 텍스트 오버레이를 추가하여 주요 질문 강조. 빠른 줌인/줌아웃으로 시청자 시선 유도.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:12-0:15",
+        "type": "example_clip",
+        "shot_type": "ai_generated",
+        "voiceover_en": "It's like hiring an AI developer. You explain the *goal*, they build it.",
+        "text_overlay_en": "LIKE HIRING AN AI DEV",
+        "촬영_지시": "미래지향적인 AI 개발자 또는 로봇이 복잡한 코드를 빠르게 생성하는 듯한 AI 생성 이미지/영상.",
+        "편집_지시": "이미지에 텍스트 오버레이 추가. 텍스트는 강조 효과와 함께 나타나고 사라짐. 몽환적이거나 기술적인 분위기의 시각 효과.",
+        "transition": "zoom_in"
+      },
+      {
+        "time": "0:15-0:18",
+        "type": "tutorial_step_3_and_results",
+        "shot_type": "text_card",
+        "voiceover_en": "You define the *puzzle*, it constructs every single piece, perfectly.",
+        "text_overlay_en": "YOU DEFINE, AI BUILDS",
+        "촬영_지시": "퍼즐 조각들이 빠르게 모여 완전한 그림을 만드는 애니메이션 그래픽.",
+        "편집_지시": "퍼즐 애니메이션과 텍스트가 동시에 나타나고 'YOU DEFINE'과 'AI BUILDS'가 번갈아 강조되도록 편집. 역동적인 효과.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:18-0:21",
+        "type": "cta_pre_frame",
+        "shot_type": "ai_generated",
+        "voiceover_en": "This frees solo entrepreneurs from coding. Focus on strategy, not syntax.",
+        "text_overlay_en": "STOP CODING, START COMMANDING",
+        "촬영_지시": "노트북 대신 전략을 구상하는 듯한 솔로 창업가의 모습 (AI 생성). 옆에는 AI 시스템을 나타내는 추상적인 그래픽.",
+        "편집_지시": "텍스트 오버레이는 부드럽게 나타나고, 영감을 주는 배경 음악과 시각적인 조화를 이루도록 편집.",
+        "transition": "zoom_out"
+      },
+      {
+        "time": "0:21-0:24",
+        "type": "cta_pre_frame",
+        "shot_type": "text_card",
+        "voiceover_en": "Stop debugging, start scaling. Your time is worth more.",
+        "text_overlay_en": "SCALE FASTER, WORK SMARTER",
+        "촬영_지시": "성장 그래프가 빠르게 상승하는 애니메이션 또는 시계/모래시계가 빠르게 돌아가는 그래픽.",
+        "편집_지시": "강조된 텍스트와 함께 성장/효율성 그래픽을 빠르게 보여줌. 긴급성을 나타내는 시각 효과.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:24-0:28",
+        "type": "call_to_action",
+        "shot_type": "text_card",
+        "voiceover_en": "Want the exact guide to implementing Agentic AI in YOUR business? Comment 'AGENT' below.",
+        "text_overlay_en": "COMMENT 'AGENT' FOR THE GUIDE!",
+        "촬영_지시": "화면 중앙에 'AGENT'라는 텍스트가 크고 선명하게 표시. 아래에 'COMMENT' 지시. 댓글창을 가리키는 화살표 애니메이션.",
+        "편집_지시": "시청자의 시선을 댓글창으로 유도하는 화살표 애니메이션 추가. 텍스트는 밝고 눈에 잘 띄는 색상으로 강조.",
+        "transition": "zoom_in"
+      },
+      {
+        "time": "0:28-0:31",
+        "type": "call_to_action",
+        "shot_type": "text_card",
+        "voiceover_en": "Unlock true automation. Get your guide to Agentic workflows now.",
+        "text_overlay_en": "UNLOCK TRUE AI AUTOMATION",
+        "촬영_지시": "황금색 또는 빛나는 효과로 'UNLOCK TRUE AI AUTOMATION' 텍스트가 나타나는 그래픽.",
+        "편집_지시": "긍정적이고 강력한 느낌을 주는 시각 효과와 함께 텍스트 강조. CTA를 다시 한번 상기시킴.",
+        "transition": "none"
+      },
+      {
+        "time": "0:31-0:35",
+        "type": "call_to_action",
+        "shot_type": "text_card",
+        "voiceover_en": "Don't miss out on this shift. Comment 'AGENT'!",
+        "text_overlay_en": "COMMENT 'AGENT' & FOLLOW FOR MORE!",
+        "촬영_지시": "채널 핸들과 함께 최종 CTA 텍스트 카드. 'AGENT'가 가장 크게 강조됨.",
+        "편집_지시": "마지막 컷으로 시청자가 채널을 팔로우하고 댓글을 남기도록 유도하는 명확하고 간결한 마무리. 채널 로고나 아이디가 하단에 작게 표시될 수 있음.",
+        "transition": "none"
+      }
+    ],
+    "hook_recommendation": {
+      "type": "bold_claim",
+      "text_en": "Your AI automations are broken. And they're about to change... forever.",
+      "효과_분석": "시청자(AI를 사용하는 솔로 창업가)의 현재 상황에 대한 '문제 제기'로 즉각적인 공감을 얻고, '영원히 바뀔 것'이라는 파격적인 주장을 통해 앞으로 나올 내용에 대한 호기심을 극대화합니다."
+    },
+    "편집_가이드": {
+      "컷_리듬": "평균 2-3초마다 빠른 컷 변화로 영상의 속도감을 유지하고 시청자의 주의를 집중시킵니다.",
+      "줌_포인트": [
+        "0:00-0:03 - 텍스트 카드 전체 화면",
+        "0:09-0:12 - AI 챗봇 화면 녹화 시, 특정 질문 텍스트에 부드럽게 줌인 후 다시 줌아웃",
+        "0:24-0:28 - 'AGENT' 텍스트에 강력하게 줌인하여 CTA 강조"
+      ],
+      "자막_타이밍": [
+        {
+          "time": "0:00-0:03",
+          "text": "YOUR AI AUTOMATIONS ARE BROKEN",
+          "style": "bold_center"
+        },
+        {
+          "time": "0:03-0:06",
+          "text": "AGENTIC AI: Tell it WHAT, not HOW",
+          "style": "pop_in"
+        },
+        {
+          "time": "0:06-0:09",
+          "text": "AI DEBUGS & SELF-HEALS",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:09-0:12",
+          "text": "SMART AI INTERVIEWS YOU",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:12-0:15",
+          "text": "LIKE HIRING AN AI DEV",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:15-0:18",
+          "text": "YOU DEFINE, AI BUILDS",
+          "style": "pop_in"
+        },
+        {
+          "time": "0:18-0:21",
+          "text": "STOP CODING, START COMMANDING",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:21-0:24",
+          "text": "SCALE FASTER, WORK SMARTER",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:24-0:28",
+          "text": "COMMENT 'AGENT' FOR THE GUIDE!",
+          "style": "bold_center"
+        },
+        {
+          "time": "0:28-0:31",
+          "text": "UNLOCK TRUE AI AUTOMATION",
+          "style": "pop_in"
+        },
+        {
+          "time": "0:31-0:35",
+          "text": "COMMENT 'AGENT' & FOLLOW FOR MORE!",
+          "style": "bold_center"
+        }
+      ],
+      "자막_스타일": "단어별 하이라이트 (빠른 속도로 진행), 흰색 텍스트에 검은색 외곽선 또는 그림자 효과 (가독성 최적화). 강조되는 단어는 컬러 변경 또는 크기 확대.",
+      "배경음악": "업비트(Upbeat), 에너지틱(Energetic), 테크(Tech) 분위기의 저작권 프리 음악. 영상 전반에 걸쳐 긴장감과 흥미를 유지하며 CTA에서 최고조에 달하도록 조정.",
+      "색보정": "밝고 선명한 톤으로 AI 기술의 혁신적인 느낌을 강조. 차갑거나 미래지향적인 느낌도 적절히 가미."
+    },
+    "platform_tips": {
+      "youtube_shorts": "제목에 핵심 키워드 포함 (Agentic AI, AI Automation, Solopreneur). 설명에 영상 내용을 요약하고 CTA를 다시 한번 명시. 관련성 높은 해시태그 사용. 첫 3초의 후킹을 극대화하여 시청 지속 시간 확보.",
+      "instagram_reels": "캡션에 흥미를 끄는 질문이나 강력한 문구 사용. AI 관련 인기 오디오 활용 (트렌드 반영). 영상 내 텍스트 오버레이는 짧고 명확하게. 해시태그는 #AIbusiness #Solopreneur 외에도 틈새시장 타겟팅 해시태그 추가. 댓글 유도 CTA 명확히."
+    },
+    "caption_en": "Your AI automations are about to level up! 🤯 Say goodbye to endless debugging and hello to Agentic AI, where you tell it *what* you want, and it figures out the *how*. Imagine an AI that self-heals AND interviews you for perfect results. ✨ This is a game-changer for solo entrepreneurs. Want to master Agentic Workflows? Comment 'AGENT' below and I'll send you the guide! 👇 #AgenticAI #AIAutomation #Solopreneur #AIBusiness #FutureOfAI #WorkSmarter",
+    "hashtags_en": [
+      "#AgenticAI",
+      "#AIAutomation",
+      "#Solopreneur",
+      "#AIBusiness",
+      "#FutureOfAI",
+      "#WorkSmarter",
+      "#AItools",
+      "#NoCode",
+      "#Entrepreneur"
+    ],
+    "caption_ko": "AI 자동화의 다음 레벨은 바로 이것! 🤯 끝없는 디버깅은 이제 그만! '에이전트 AI'는 여러분이 원하는 '결과'만 알려주면, 스스로 '방법'을 찾아냅니다. 스스로 치유하고, 심지어 똑똑하게 질문까지 하는 AI를 상상해보세요. ✨ 1인 사업가들에게는 게임 체인저가 될 거예요. 에이전트 워크플로우를 마스터하고 싶으신가요? 댓글에 'AGENT'라고 남겨주세요! 👇 가이드를 보내드릴게요! #에이전트AI #AI자동화 #1인사업가 #AI사업 #미래기술 #스마트워크",
+    "hashtags_ko": [
+      "#에이전트AI",
+      "#AI자동화",
+      "#1인사업가",
+      "#AI사업",
+      "#미래기술",
+      "#스마트워크",
+      "#노코드AI",
+      "#인공지능툴",
+      "#창업가"
+    ],
+    "difficulty": "medium",
+    "촬영_체크리스트": [
+      "AI 보이스오버 스크립트 (ElevenLabs 등 AI 툴로 생성)",
+      "텍스트 카드 디자인 (Canva, CapCut 활용)",
+      "AI 챗봇 질문 화면 녹화 (Claude 또는 ChatGPT UI 등)",
+      "오류/성공 애니메이션 그래픽 소스",
+      "퍼즐 조각 결합 애니메이션 그래픽 소스",
+      "성장 그래프 또는 시계/모래시계 그래픽 소스",
+      "미래지향적 AI 개발자, 솔로 창업가 등 AI 생성 이미지/영상 소스 (Midjourney, DALL-E)",
+      "배경 음악 (저작권 프리)",
+      "편집 소프트웨어 (CapCut 권장)"
+    ],
+    "faceless_production": {
+      "voice_method": "ai_voice",
+      "ai_voice_tool": "ElevenLabs",
+      "visual_sources": [
+        "screen_recording",
+        "text_animation",
+        "ai_generated_images",
+        "ai_generated_video_clips"
+      ],
+      "editing_tool": "CapCut",
+      "예상_제작시간": "1.5시간",
+      "제작_순서": [
+        "1. 스크립트 확정 및 영어 보이스오버 생성 (ElevenLabs)",
+        "2. 각 샷에 필요한 텍스트 카드 디자인 및 애니메이션 제작 (CapCut/Canva)",
+        "3. AI 챗봇 질문 화면 녹화 준비 및 기타 AI 생성 비주얼 소스 확보",
+        "4. CapCut에서 보이스오버와 비주얼을 동기화하여 편집",
+        "5. 배경 음악 및 사운드 효과 추가, 색보정",
+        "6. 최종 자막 스타일 적용 및 내보내기"
+      ]
+    },
+    "reference_url": "https://www.youtube.com/shorts/4H35KMcfBLg",
+    "reference_title": "He Makes 50 Lakh/Month with AI (No Camera/No Face) #shorts #ai #money",
+    "source_url": "https://www.youtube.com/watch?v=AO5aW01DKHo",
+    "source_title": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+    "notion_page_id": "31f82061-5704-815b-87ba-f6807428d1fe"
+  }
+]

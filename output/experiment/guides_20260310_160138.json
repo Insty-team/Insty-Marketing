@@ -1,0 +1,217 @@
+[
+  {
+    "title_en": "Solo Entrepreneur's Secret: Scale with an AI Team",
+    "title_ko": "AI 팀으로 사업 확장!",
+    "target_length_seconds": 35,
+    "script_en": {
+      "voiceover_full": "This is the secret to scaling my business without hiring a single person. It's building an AI team, tailored for your specific business needs. Finally break free from those solo entrepreneur bottlenecks! I've got a Developer, a Marketer, a Project Manager... all AI agents. They each have their own personality, task queue, and persistent memory. But WHERE do these agents live? You don't want them on your daily machine. Option one: a cloud VPS, starting at just $5 a month. Or option two: a dedicated mini PC on your network. This ensures 24/7 autonomy without hogging YOUR resources. Get an AI team that works for you.",
+      "talking_points": [
+        "Scale business without hiring using AI.",
+        "Build a custom AI team (Developer, Marketer, PM).",
+        "AI agents have personality, tasks, and memory.",
+        "Don't run AI agents on your main computer.",
+        "Option 1: Cloud VPS ($5/month).",
+        "Option 2: Dedicated mini PC.",
+        "Ensure 24/7 AI autonomy without resource drain."
+      ]
+    },
+    "shot_breakdown": [
+      {
+        "time": "0:00-0:03",
+        "type": "hook",
+        "shot_type": "close_up_face",
+        "voiceover_en": "This is the secret to scaling my business without hiring a single person.",
+        "text_overlay_en": "SECRET TO SCALING WITHOUT HIRING",
+        "촬영_지시": "카메라 정면을 보고 에너제틱하게 웃으며 시작합니다. 화면 하단이나 측면을 가리키는 제스처를 취합니다.",
+        "편집_지시": "강렬한 비트의 음악 시작. 텍스트 오버레이 'SECRET TO SCALING WITHOUT HIRING'이 단어별로 애니메이션되어 등장하며 강조됩니다.",
+        "transition": "none"
+      },
+      {
+        "time": "0:03-0:06",
+        "type": "introduction",
+        "shot_type": "close_up_face",
+        "voiceover_en": "It's building an AI team, tailored for your specific business needs.",
+        "text_overlay_en": "BUILD YOUR OWN AI TEAM",
+        "촬영_지시": "양 손을 펼쳐 보이거나 미소 지으며 아이디어를 소개하는 듯한 제스처를 취합니다.",
+        "편집_지시": "텍스트 오버레이 'BUILD YOUR OWN AI TEAM'이 팝인 효과로 등장합니다. 이전 컷과 자연스러운 점프 컷.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:06-0:10",
+        "type": "benefit_reveal",
+        "shot_type": "close_up_face",
+        "voiceover_en": "Finally break free from those solo entrepreneur bottlenecks!",
+        "text_overlay_en": "BREAK FREE FROM BOTTLENECKS!",
+        "촬영_지시": "양 손을 모으거나 위로 뻗으며 해방감이나 성취감을 표현하는 표정과 제스처를 취합니다.",
+        "편집_지시": "텍스트 오버레이 'BREAK FREE FROM BOTTLENECKS!'가 강조되며 나타납니다. 에너제틱한 음악 유지.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:10-0:15",
+        "type": "demonstration_start",
+        "shot_type": "screen_recording",
+        "voiceover_en": "I've got a Developer, a Marketer, a Project Manager... all AI agents.",
+        "text_overlay_en": "MEET MY AI TEAM",
+        "촬영_지시": "사전에 준비된 커스텀 대시보드(Slack 또는 유사한 UI) 화면을 녹화합니다. 'AI Dev', 'AI Marketer', 'AI PM' 등 다양한 AI 에이전트들의 채팅창이나 역할이 명확히 보이도록 합니다. 진행자 얼굴은 PiP(Picture-in-Picture)로 우측 상단에 작게 표시됩니다.",
+        "편집_지시": "화면 녹화로 전환. 텍스트 오버레이 'MEET MY AI TEAM'이 화면 중앙에 표시됩니다. PiP 얼굴은 부드럽게 등장합니다.",
+        "transition": "swipe"
+      },
+      {
+        "time": "0:15-0:19",
+        "type": "demonstration_detail_1",
+        "shot_type": "screen_recording",
+        "voiceover_en": "They each have their own personality, task queue, and persistent memory.",
+        "text_overlay_en": "PERSISTENT MEMORY & TASKS",
+        "촬영_지시": "화면 녹화는 계속됩니다. 특정 AI 에이전트의 'task queue' 또는 'persistent memory'를 보여주는 부분(예: 대화 기록 스크롤, 작업 목록)을 줌인하여 보여줍니다. PiP 얼굴은 유지.",
+        "편집_지시": "화면 녹화 내 특정 영역으로 빠르게 줌인. 텍스트 오버레이 'PERSISTENT MEMORY & TASKS'가 애니메이션됩니다.",
+        "transition": "zoom_in"
+      },
+      {
+        "time": "0:19-0:23",
+        "type": "demonstration_detail_2",
+        "shot_type": "screen_recording",
+        "voiceover_en": "But WHERE do these agents live? You don't want them on your daily machine.",
+        "text_overlay_en": "WHERE TO RUN THEM?",
+        "촬영_지시": "빠르게 전환하여 일반 노트북 위에 '접근 금지'나 '경고' 아이콘이 있는 단순한 그래픽 이미지를 보여줍니다. PiP 얼굴은 유지하며 고개를 젓거나 경고하는 표정을 짓습니다.",
+        "편집_지시": "경고 그래픽으로 빠르게 컷 전환. 텍스트 오버레이 'WHERE TO RUN THEM?'이 나타납니다. 컷 리듬을 빠르게 유지.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:23-0:27",
+        "type": "demonstration_detail_3",
+        "shot_type": "screen_recording",
+        "voiceover_en": "Option one: a cloud VPS, starting at just $5 a month.",
+        "text_overlay_en": "OPTION 1: CLOUD VPS ($5/MONTH)",
+        "촬영_지시": "클라우드 VPS 제공업체(예: DigitalOcean, Vultr)의 저렴한 요금제($5/month)를 보여주는 웹사이트 화면 녹화 (모의 화면도 가능). PiP 얼굴은 유지하며 설명합니다.",
+        "편집_지시": "VPS 화면으로 전환. 텍스트 오버레이 'OPTION 1: CLOUD VPS ($5/MONTH)'가 표시됩니다.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:27-0:31",
+        "type": "demonstration_detail_4",
+        "shot_type": "screen_recording",
+        "voiceover_en": "Or option two: a dedicated mini PC on your network.",
+        "text_overlay_en": "OPTION 2: DEDICATED MINI PC",
+        "촬영_지시": "Mac Mini나 유사한 미니 PC 하드웨어를 보여주는 클로즈업 또는 간단한 영상. 책상 위에 놓인 모습을 보여줄 수 있습니다. PiP 얼굴은 유지하며 설명합니다.",
+        "편집_지시": "미니 PC 영상/이미지로 전환. 텍스트 오버레이 'OPTION 2: DEDICATED MINI PC'가 표시됩니다.",
+        "transition": "jump_cut"
+      },
+      {
+        "time": "0:31-0:35",
+        "type": "outro",
+        "shot_type": "close_up_face",
+        "voiceover_en": "This ensures 24/7 autonomy without hogging YOUR resources. Get an AI team that works for you.",
+        "text_overlay_en": "24/7 AUTONOMY. NO OVERHEAD.",
+        "촬영_지시": "다시 진행자 얼굴 클로즈업으로 전환. 자신감 있는 미소를 지으며 고개를 끄덕이거나 확신에 찬 제스처로 마무리합니다.",
+        "편집_지시": "PiP 얼굴이 사라지며 메인 진행자 얼굴로 전환됩니다. 텍스트 오버레이 '24/7 AUTONOMY. NO OVERHEAD.'가 화면 중앙에 크게 강조됩니다. 음악이 마무리됩니다.",
+        "transition": "zoom_out"
+      }
+    ],
+    "hook_recommendation": {
+      "type": "insider_secret",
+      "text_en": "The secret to scaling my business without hiring a single person.",
+      "효과_분석": "이 훅은 1인 사업가의 가장 큰 고민 중 하나인 '사업 확장'과 '인력 채용 부담'을 동시에 언급하며 강력한 호기심을 유발합니다. '비밀'이라는 단어가 시청자의 집중도를 높입니다."
+    },
+    "편집_가이드": {
+      "컷_리듬": "매 2~4초마다 컷 변화를 주어 빠른 속도감을 유지합니다.",
+      "줌_포인트": [
+        "0:10 - 스크린 레코딩 시작 시 PiP 얼굴과 함께 부드럽게 줌인",
+        "0:15 - 특정 대시보드 영역으로 빠르게 줌인",
+        "0:31 - PiP 얼굴이 사라지면서 메인 진행자 얼굴로 줌아웃하며 전환"
+      ],
+      "자막_타이밍": [
+        {
+          "time": "0:00-0:03",
+          "text": "SECRET TO SCALING WITHOUT HIRING",
+          "style": "pop_in_animated"
+        },
+        {
+          "time": "0:03-0:06",
+          "text": "BUILD YOUR OWN AI TEAM",
+          "style": "pop_in_animated"
+        },
+        {
+          "time": "0:06-0:10",
+          "text": "BREAK FREE FROM BOTTLENECKS!",
+          "style": "pop_in_animated"
+        },
+        {
+          "time": "0:10-0:15",
+          "text": "MEET MY AI TEAM",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:15-0:19",
+          "text": "PERSISTENT MEMORY & TASKS",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:19-0:23",
+          "text": "WHERE TO RUN THEM?",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:23-0:27",
+          "text": "OPTION 1: CLOUD VPS ($5/MONTH)",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:27-0:31",
+          "text": "OPTION 2: DEDICATED MINI PC",
+          "style": "subtitle"
+        },
+        {
+          "time": "0:31-0:35",
+          "text": "24/7 AUTONOMY. NO OVERHEAD.",
+          "style": "bold_center_pop_in"
+        }
+      ],
+      "자막_스타일": "흰색 텍스트에 검은색 외곽선 (또는 그림자)을 적용하여 가독성을 높입니다. 'burned_in_animated' 스타일로 단어별로 하이라이트 되거나 팝인 효과를 사용합니다.",
+      "배경음악": "업비트(Upbeat)하고 에너제틱하며 현대적인 전자 음악 (저작권 없는 빠른 템포의 브이로그 배경음악 등).",
+      "색보정": "밝고 따뜻한 톤으로 작업하여 긍정적이고 미래지향적인 분위기를 연출합니다."
+    },
+    "platform_tips": {
+      "youtube_shorts": "제목은 후킹하게 (60자 이내), 설명에 상세 정보와 관련 해시태그를 포함합니다. 댓글 유도를 위한 질문을 추가하고, 쇼츠 피드 노출을 위해 트렌딩 음악을 활용하는 것을 고려합니다.",
+      "instagram_reels": "캡션은 핵심 내용을 담고, 첫 문장이 시선을 사로잡도록 작성합니다. 관련성이 높은 해시태그를 5-10개 사용하고, 릴스 탐색 노출을 위해 릴스 트렌딩 오디오를 배경음악으로 활용합니다."
+    },
+    "caption_en": "Solo entrepreneurs, tired of bottlenecks? 😫 The secret to scaling your business without hiring is building an AI team! 🤖 I'm talking about a Developer, Marketer, Project Manager—all AI agents with their own tasks and memory. But where do they live? Not on your main machine! Choose a $5/month cloud VPS or a dedicated mini PC for 24/7 autonomy. No more manually managing agents! Ready to unlock this power? ✨ Follow for more AI business secrets! #AIbusiness #solopreneur #AItips #AIagents #OpenClaw #businesstips #scaleup #futureofwork",
+    "hashtags_en": [
+      "#AIbusiness",
+      "#solopreneur",
+      "#AItips",
+      "#AIagents",
+      "#OpenClaw",
+      "#businesstips",
+      "#scaleup",
+      "#futureofwork",
+      "#techforbusiness"
+    ],
+    "caption_ko": "1인 사업가 여러분, 항상 업무에 허덕이시나요? 😫 사람을 고용하지 않고도 사업을 확장하는 비밀은 바로 'AI 팀'을 구축하는 것입니다! 🤖 개발자, 마케터, 프로젝트 매니저 등 각자의 역할을 수행하는 AI 에이전트들이 여러분을 위해 24시간 일합니다. 이 AI 팀은 어디에 구축해야 할까요? 한 달 5달러짜리 클라우드 VPS 또는 전용 미니 PC면 충분합니다! 더 이상 수동으로 에이전트를 관리하지 마세요. ✨ 더 많은 AI 사업 비밀을 위해 팔로우해주세요! #AI사업 #1인사업가 #AI팁 #AI에이전트 #오픈클로 #사업팁 #사업확장 #미래직업 #테크활용",
+    "hashtags_ko": [
+      "#AI사업",
+      "#1인사업가",
+      "#AI팁",
+      "#AI에이전트",
+      "#오픈클로",
+      "#사업팁",
+      "#사업확장",
+      "#미래직업",
+      "#테크활용"
+    ],
+    "difficulty": "medium",
+    "촬영_체크리스트": [
+      "✅ 안정적인 조명이 확보된 촬영 공간",
+      "✅ 고화질 스마트폰 또는 카메라 (세로 9:16 비율 촬영)",
+      "✅ 깨끗하게 녹음되는 외장 마이크",
+      "✅ 커스텀 AI 대시보드/Slack 화면 (또는 모의 화면) 스크린 레코딩 준비",
+      "✅ VPS 요금제 화면 (또는 모의 화면) 스크린 레코딩 준비",
+      "✅ 미니 PC (예: Mac Mini) 하드웨어 촬영용 준비물 (실물이 없으면 고품질 이미지/비디오 소스)",
+      "✅ 대본 암기 및 제스처 연습"
+    ],
+    "reference_url": "https://www.youtube.com/shorts/z6g9B0Nt7P4",
+    "reference_title": "How do we use YouTube’s latest AI feature?#tutorialyoutube #tutorial #youtube #shorts",
+    "source_url": "https://www.youtube.com/watch?v=bzWI3Dil9Ig",
+    "source_title": "My Multi-Agent Team with OpenClaw",
+    "notion_page_id": "31f82061-5704-813e-b83e-c48edef77d0d"
+  }
+]

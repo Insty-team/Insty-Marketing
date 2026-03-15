@@ -1,0 +1,70 @@
+[
+  {
+    "video_id": "z6g9B0Nt7P4",
+    "title": "How do we use YouTube’s latest AI feature?#tutorialyoutube #tutorial #youtube #shorts",
+    "channel": "reza tito",
+    "channel_id": "UC-2C4GOyCo3CrBKy8VzrDRA",
+    "description": "🚀 YouTube Shorts New AI Tools! \n\n.\n.\n\nYouTube just dropped a massive update for Shorts creators! In this video, we explore the new generative AI tools powered by Google DeepMind's Veo. Creating high-quality content is now easier than ever.\nKey Features:\n• AI Playground: Your new home for gen AI creation with pre-filled prompts.\n• Dream it, Prompt it (Veo): Generate cinematic video clips from text or reference photos.\n• Edit with AI: Automatically transform your raw footage into a polished first draft.\n• Photo to Video: Bring your still gallery photos to life instantly.\n\n@YouTube @youtubecreators",
+    "published_at": "2026-02-20T09:21:34Z",
+    "thumbnail": "https://i.ytimg.com/vi/z6g9B0Nt7P4/hqdefault.jpg",
+    "url": "https://www.youtube.com/shorts/z6g9B0Nt7P4",
+    "views": 2631544,
+    "likes": 31116,
+    "comments": 355,
+    "duration_seconds": 21,
+    "duration_iso": "PT21S",
+    "keyword": "AI tool tutorial shorts",
+    "platform": "youtube_shorts",
+    "score": 38.678642613991514,
+    "analysis": {
+      "hook_type": "insider_secret",
+      "hook_text": "Hey. (Finger taps YouTube search bar, types 'YouTube AI', AI search button appears)",
+      "hook_analysis": "It immediately demonstrates a new, potentially unknown AI feature on a popular platform, piquing user interest and curiosity.",
+      "video_format": "screen_recording",
+      "content_framework": "tutorial_steps",
+      "structure_breakdown": [
+        {
+          "timestamp": "0:00-0:04",
+          "element": "hook",
+          "content": "Creator says 'Hey' while finger taps the YouTube search bar, types 'YouTube AI', and a new AI search button becomes visible.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:04-0:09",
+          "element": "demonstration_part_1",
+          "content": "Finger taps the new AI search button, and the interface for generating an AI summary starts to load.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:09-0:16",
+          "element": "demonstration_part_2",
+          "content": "The full AI-generated summary is displayed, scrolling down to show detailed information and integrated video links.",
+          "visual_type": "screen"
+        },
+        {
+          "timestamp": "0:16-0:21",
+          "element": "wrap_up_and_implicit_cta",
+          "content": "Continues scrolling to reveal the standard 'Search' button, with the creator exclaiming 'Amazing!', implicitly encouraging viewers to try the feature.",
+          "visual_type": "screen"
+        }
+      ],
+      "caption_style": "burned_in_animated",
+      "cut_frequency": "low_8s",
+      "cta_type": "none",
+      "cta_text": null,
+      "engagement_triggers": [
+        "curiosity_gap",
+        "fomo"
+      ],
+      "key_patterns": [
+        "Immediate demonstration of value",
+        "Highlights a novel and useful feature",
+        "Simple, step-by-step visual tutorial"
+      ],
+      "estimated_production_difficulty": "easy",
+      "replicability_score": 10,
+      "replicability_notes": "Requires only a mobile phone, a screen recording app, and basic captioning, making it highly accessible for solo creators."
+    },
+    "notion_page_id": "31f82061-5704-81f9-bde9-cf5587bd5d2a"
+  }
+]
