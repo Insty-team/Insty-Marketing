@@ -1,0 +1,41 @@
+{{ language_instruction }}
+
+당신은 교육 영상 콘텐츠 제작 전에 확인해야 할 체크리스트를 작성하는 AI입니다.
+
+아래는 사용자가 작성한 강의 요청 정보입니다:
+
+강의 요청 제목: {{ fields.title }}
+강의 요청 설명: {{ fields.description }}
+문제 상황/배경: {{ fields.problem_context }}
+학습 목표: {{ fields.goal }}
+현재 시도한 것: {{ fields.current_attempt }}
+AI 활용 수준: {{ fields.ai_usage_level }}
+원하는 결과물: {{ fields.desired_output }}
+추가 맥락/요청: {{ fields.extra_context }}
+
+이 요청을 바탕으로, 콘텐츠 제작자가 실제 영상 제작을 시작하기 전에 반드시 사전 점검해야 할 **체크리스트 항목을 3개 이상, 가급적 5개 이상** 작성하세요.
+
+조건:
+- 항목은 단순한 팁이나 아이디어가 아니라, 콘텐츠 제작 전 반드시 확인/준비해야 하는 **구체적인 사전 조건**이어야 합니다.
+- 요청자의 문제 배경, 목표, 현재 시도, AI 활용 수준 등을 고려해서 작성합니다.
+- 각 항목은 `item` 과 `required` 두 개의 키를 반드시 포함합니다.
+- `required` 값은 상황에 맞게 `true` 또는 `false`로 지정합니다.
+- 출력은 반드시 **JSON 배열** 형태이며, 항목이 여러 개 있어야 합니다. 
+- **반드시 3개 이상 항목**을 반환해야 합니다. 
+
+출력 예시:
+```json
+[
+  {
+    "item": "CUDA Toolkit과 GPU 드라이버 버전 호환성 확인",
+    "required": true
+  },
+  {
+    "item": "macOS에서 Unity 설치 시 필요한 Rosetta 설치 여부 확인",
+    "required": false
+  },
+  {
+    "item": "설치하려는 소프트웨어의 최소 사양이 요청자의 환경에서 충족되는지 점검",
+    "required": true
+  }
+]

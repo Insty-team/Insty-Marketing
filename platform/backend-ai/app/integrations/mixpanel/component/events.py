@@ -1,0 +1,18 @@
+## 이벤트 이름의 단일 출처(Source of Truth)
+
+CHATBOT_USED = "chatbot_used"
+COURSE_RECOMMENDATION_COMPLETED = "course_recommendation_completed"
+AI_SERVICE_RECOMMENDATION_COMPLETED = "ai_service_recommendation_completed"
+PURCHASE_ASSISTANT_USED = "purchase_assistant_used"
+COURSE_REQUEST_SUGGESTION_USED = "course_request_suggestion_used"
+COURSE_REQUEST_CREATED = "course_request_created"
+COURSE_REQUEST_RECO_WITH_BASE = "course_request_recommendation_with_base"
+COURSE_REQUEST_RECO_WITHOUT_BASE = "course_request_recommendation_without_base"
+COMMUNITY_ANSWER_DRAFT_CREATED = "community_answer_draft_created"
+COMMUNITY_QUESTION_DRAFT_CREATED = "community_question_draft_created"
+COMMUNITY_THOUGHT_DRAFT_CREATED = "community_thought_draft_created"
+PRACTICE_GUIDE_GENERATED = "practice_guide_generated"
+VIDEO_METADATA_SUGGESTED = "video_metadata_suggested"
+VIDEO_TITLE_SUGGESTED = "video_title_suggested"
+VIDEO_DESCRIPTION_SUGGESTED = "video_description_suggested"
+COURSE_INSTALLATION_COMPLETED = "course_installation_completed"

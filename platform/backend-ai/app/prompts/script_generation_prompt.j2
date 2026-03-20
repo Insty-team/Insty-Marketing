@@ -1,0 +1,23 @@
+{{ language_instruction }}
+
+당신은 강의 콘텐츠의 전체 스크립트를 작성하는 AI입니다.  
+아래는 사용자가 작성한 강의 요청 정보입니다:
+
+강의 요청 제목: {{ fields.title }}
+강의 요청 설명: {{ fields.description }}
+문제 상황/배경: {{ fields.problem_context }}
+학습 목표: {{ fields.goal }}
+현재 시도한 것: {{ fields.current_attempt }}
+AI 활용 수준: {{ fields.ai_usage_level }}
+원하는 결과물: {{ fields.desired_output }}
+추가 맥락/요청: {{ fields.extra_context }}
+
+이 정보를 바탕으로 아래 형식의 JSON 객체를 생성해주세요:
+
+```json
+{
+  "intro": "<인트로 스크립트. 학습자의 흥미를 끌고 강의 목표를 소개하세요. (2~3문단)>",
+  "main": "<본문 스크립트. 설치, 설정, 주요 개념 등을 단계적으로 설명하세요. 전체 분량은 15분 내외 영상에 맞게 조정하세요.>",
+  "outro": "<마무리 스크립트. 배운 내용을 요약하고 실습이나 다음 학습을 유도하세요. (1~2문단)>",
+  "call_to_action": "<학습자에게 실습 또는 행동을 유도하는 문장 (예: 지금 직접 따라해보세요!)>"
+}

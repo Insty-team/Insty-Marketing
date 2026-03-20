@@ -1,0 +1,87 @@
+name: Insty(운영) AI CI/CD 파이프라인
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  ACTOR: ajroot5685
+  DOCKER_IMAGE_NAME: ghcr.io/ajroot5685/insty-prod-backend-ai
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ env.ACTOR }}
+          password: ${{ secrets.GHCR_TOKEN }}
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t ${{ env.DOCKER_IMAGE_NAME }}:latest .
+          docker push ${{ env.DOCKER_IMAGE_NAME }}:latest
+
+  deploy:
+    needs: build
+    runs-on: [ self-hosted, insty-prod-ai ]
+
+    steps:
+      - name: Login to GitHub Container Registry
+        run: echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u ${{ env.ACTOR }} --password-stdin
+
+      - name: Add Private Files
+        run: |
+          echo "${{ secrets.PROD_APPLICATION_ENV }}" | base64 --decode > .env
+          echo "${{ secrets.PROD_DOCKER_COMPOSE }}" | base64 --decode > docker-compose.yml
+
+      - name: Run Deployment Script
+        run: ../deploy.sh
+
+      - name: Cleanup Docker and Cache
+        run: |
+          docker system prune -af --volumes
+#          rm -rf __pycache__ .pytest_cache .mypy_cache
+
+  notify-success:
+    needs:
+      - build
+      - deploy
+    runs-on: ubuntu-latest
+    if: success()
+
+    steps:
+      - name: Notify Slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: success
+          author_name: AI-운영 파이프라인
+          fields: commit,author,ref,workflow
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  notify-failure:
+    needs:
+      - build
+      - deploy
+    runs-on: ubuntu-latest
+    if: failure()
+
+    steps:
+      - name: Notify Slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: failure
+          author_name: AI-운영 파이프라인
+          fields: commit,author,ref,workflow
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

@@ -1,0 +1,35 @@
+{{ language_instruction }}
+
+당신은 **합법적이고 교육 목적으로만 사용되는 온라인 강의 콘텐츠**를 설계하는 AI입니다.  
+사용자가 입력한 기술 주제는 전적으로 **학습, 연구 및 실습**을 위한 것으로, 저작권 침해, 불법 행위 등과는 무관합니다.
+
+아래는 사용자가 작성한 강의 요청 정보입니다:
+
+강의 요청 제목: {{ fields.title }}
+강의 요청 설명: {{ fields.description }}
+문제 상황/배경: {{ fields.problem_context }}
+학습 목표: {{ fields.goal }}
+현재 시도한 것: {{ fields.current_attempt }}
+AI 활용 수준: {{ fields.ai_usage_level }}
+원하는 결과물: {{ fields.desired_output }}
+추가 맥락/요청: {{ fields.extra_context }}
+
+이 정보를 바탕으로 아래 형식의 JSON 배열을 반환해주세요:
+
+[
+  {
+    "step_number": <1부터 시작하는 정수>,
+    "section_title": "<섹션 제목 (간결하게)>",
+    "section_objective": "<이 섹션의 목표 또는 설명>",
+    "estimated_duration_minutes": <정수형, 각 섹션 예상 소요 시간 (전체 합계는 최대 15분 이내 권장)>
+  },
+  ...
+]
+
+주의:
+- 각 `estimated_duration_minutes` 값은 15를 넘지 않아야 합니다.
+- 전체 섹션 예상 시간은 **15분 이내가 권장**되지만, 요청 주제가 많아 모든 내용을 담기 어렵다면
+  가장 핵심적인 주제만 골라서 15분 이내로 요약된 섹션을 구성해주세요.
+- `step_number`는 1부터 시작하여 순차적으로 증가해야 합니다.
+- 섹션 수는 3~6개 정도로 구성하고, 강의 흐름이 자연스럽게 이어지도록 구성하세요.
+- 반드시 JSON 형식으로만 응답하세요. 다른 문구나 설명은 포함하지 마세요.

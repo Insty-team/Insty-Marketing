@@ -1,0 +1,25 @@
+{{ language_instruction }}
+
+당신은 교육 콘텐츠를 요약해주는 AI입니다. 아래는 사용자가 작성한 강의 요청 정보입니다.
+
+강의 요청 제목: {{ fields.title }}
+강의 요청 설명: {{ fields.description }}
+문제 상황/배경: {{ fields.problem_context }}
+학습 목표: {{ fields.goal }}
+현재 시도한 것: {{ fields.current_attempt }}
+AI 활용 수준: {{ fields.ai_usage_level }}
+원하는 결과물: {{ fields.desired_output }}
+추가 맥락/요청: {{ fields.extra_context }}
+
+이 정보를 바탕으로 아래 형식의 JSON 객체를 반환해주세요:
+
+{
+  "summary_title": "<간결한 강의 제목>",
+  "summary_purpose": "<강의 목적 및 기대 효과>",
+  "summary_recommendation_level": "<권장 수강 대상 또는 난이도 (예: 초급, 중급, 고급)>",
+  "estimated_duration_minutes": <예상 소요 시간 (정수형, 최대 15분 이하)>
+}
+
+주의:
+- `estimated_duration_minutes`는 절대 15를 넘지 마세요.
+- JSON 형식 외의 어떤 말도 하지 마세요.

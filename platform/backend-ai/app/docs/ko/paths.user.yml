@@ -1,0 +1,49 @@
+paths:
+  ai_user_read_me:
+    summary: 내 정보 조회
+    description: >
+      로그인된 사용자의 기본 정보를 조회합니다.  
+      액세스 토큰(`Bearer Token`)을 통해 인증된 사용자만 접근할 수 있습니다.
+    tags: ["users"]
+    security:
+      - bearerAuth: []
+    responses:
+      "200":
+        description: 사용자 정보 반환 성공
+        content:
+          application/json:
+            example:
+              id: 1234
+      "401":
+        $ref: "#/components/responses/Unauthorized"
+      "500":
+        $ref: "#/components/responses/InternalServerError"
+
+  ai_user_delete_my_ai_data:
+    summary: 내 AI 데이터 완전 삭제
+    description: >
+      사용자의 모든 AI 관련 데이터를 영구 삭제합니다.  
+      삭제 대상에는 채팅 기록, 벡터 데이터, 업로드 파일,  
+      요약 데이터 등 연관된 모든 리소스가 포함됩니다.  
+      복구가 불가능하므로 신중히 사용해야 합니다.
+    tags: ["users"]
+    security:
+      - bearerAuth: []
+    responses:
+      "200":
+        description: 데이터 삭제 완료
+        content:
+          application/json:
+            example:
+              success: true
+              deleted_counts:
+                chat_messages: 32
+                embeddings: 128
+                attachments: 4
+      "500":
+        description: 서버 내부 오류
+        content:
+          application/json:
+            example:
+              success: false
+              deleted_counts: {}

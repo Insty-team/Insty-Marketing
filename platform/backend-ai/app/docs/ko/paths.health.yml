@@ -1,0 +1,42 @@
+paths:
+  ai_health_ping:
+    summary: 서버 헬스 체크 (Ping)
+    description: >
+      서버의 기본 상태를 확인하기 위한 단순 헬스 체크 API입니다.  
+      AWS Load Balancer 또는 모니터링 시스템에서 사용됩니다.  
+      별도의 인증이 필요하지 않습니다.
+    tags: ["health"]
+    security: []
+    responses:
+      "200":
+        description: 서버 응답 정상
+        content:
+          application/json:
+            example:
+              status: ok
+      "500":
+        $ref: "#/components/responses/InternalServerError"
+
+  ai_health_check_db:
+    summary: 데이터베이스 연결 상태 확인
+    description: >
+      데이터베이스 연결이 정상적인지 점검합니다.  
+      내부에서 `SELECT 1` 쿼리를 실행하여 DB 응답 여부를 확인합니다.
+    tags: ["health"]
+    security: []
+    responses:
+      "200":
+        description: DB 연결 정상
+        content:
+          application/json:
+            example:
+              db: ok
+      "500":
+        description: DB 연결 실패
+        content:
+          application/json:
+            example:
+              success: false
+              error:
+                code: AI_COMMON_011
+                message: 데이터베이스 연결에 실패했습니다. 서버 상태를 확인해주세요.

@@ -1,0 +1,42 @@
+{
+    "extends": ["@commitlint/config-conventional"],
+    "parserPreset": {
+      "parserOpts": {
+        "headerPattern": "^(?<type>.+?)(?:\\((?<scope>.+)\\))?:\\s(?<subject>.+)$",
+        "headerCorrespondence": ["type", "scope", "subject"]
+      }
+    },
+    "rules": {
+      "subject-empty": [2, "never"],
+      "subject-full-stop": [2, "never", "."],
+      "subject-case": [2, "never", []],
+      "subject-empty": [2, "never"],
+  
+      "scope-case": [2, "never", []],
+  
+      "body-leading-blank": [1, "always"],
+      "body-max-line-length": [2, "always", 100],
+      "footer-leading-blank": [1, "always"],
+      "footer-max-line-length": [2, "always", 100],
+  
+      "type-case": [0],
+      "type-empty": [2, "never"],
+      "type-enum": [
+        2,
+        "always",
+        [
+          "✨ Feat",
+          "🐛 Fix",
+          "⭐️ Style",
+          "♻️ Refactor",
+          "📁 File",
+          "✅ Test",
+          "📝 Docs",
+          "🔥 Remove",
+          "💚 Ci",
+          "🔖 Release",
+          "🔧 Chore"
+        ]
+      ]
+    }
+  }

@@ -1,0 +1,14 @@
+{{ language_instruction }}
+
+{% if previous_summary %}
+기존 요약:
+{{ previous_summary }}
+{% endif %}
+
+새로운 메시지 목록:
+{% for msg in new_messages %}
+{{ msg.sender_type }}: {{ msg.message_text }}
+{% endfor %}
+
+위 내용을 바탕으로 지금까지의 대화를 간결하게 요약해 주세요.
+중복 없이 핵심 정보만 남기되, 중요 흐름은 빠뜨리지 마세요.

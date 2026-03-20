@@ -1,0 +1,98 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Node
+node_modules/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# dotenv files
+.env
+.env.*
+
+# pytest
+.pytest_cache/
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# FastAPI specific (like auto-generated OpenAPI files, if any)
+openapi.json
+
+# 캐시
+*.pyc
+*.pyo
+*.pyd
+
+# Others
+*.sqlite3
+*.db
+*.pid
+
+# 환경 설정 백업
+*.bak
+*.swp
+*.tmp
+
+# github actions 테스트용
+.secrets
+docker-compose.yml
+docker-compose.temp.yml
+docker-compose.test.yml
+
+# Poetry local settings (should not be versioned)
+poetry.toml
+
+# Ignore test subdirectories (but not tests/ itself)
+tests/**/
+!tests/__init__.py
+
+# Dockerignore
+.dockerignore
+
+# 깃허브 액션 base64 인코딩
+encoded_docker_compose.txt
+encoded_env.txt
+
+# etc
+mycmd.sh
+backup_sql.sql
+
+# pem file
+insty-dev-keypair.pem

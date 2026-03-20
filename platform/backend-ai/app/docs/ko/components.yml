@@ -1,0 +1,175 @@
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: >
+        모든 API는 JWT 기반 Bearer 인증을 사용합니다.  
+        Authorization 헤더에 `Bearer {token}` 형식으로 토큰을 전달해야 합니다.
+
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              description: 에러 코드 (`ErrorCode.code`)
+              example: AI_COMMON_002
+            message:
+              type: string
+              description: 에러 메시지 (`ErrorCode.message`)
+              example: 인증이 필요합니다.
+      required:
+        - success
+        - error
+
+    SuccessResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          description: 실제 응답 데이터
+          type: object
+      required:
+        - success
+        - data
+
+    ValidationError:
+      title: ValidationError
+      required:
+        - loc
+        - msg
+        - type
+      type: object
+      properties:
+        loc:
+          title: Location
+          type: array
+          items:
+            type: string
+        msg:
+          title: Message
+          type: string
+        type:
+          title: Error Type
+          type: string
+
+    HTTPValidationError:
+      title: HTTPValidationError
+      type: object
+      properties:
+        detail:
+          title: Detail
+          type: array
+          items:
+            $ref: "#/components/schemas/ValidationError"
+
+  responses:
+    BadRequest:
+      description: 잘못된 요청 (입력값, 파라미터 오류 등)
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          examples:
+            invalid_input:
+              summary: 잘못된 입력 데이터
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_001
+                  message: 입력 데이터가 유효하지 않습니다.
+            bad_request_body:
+              summary: 요청 형식이 잘못됨
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_008
+                  message: 요청 형식이 잘못되었습니다.
+
+    Unauthorized:
+      description: 인증 실패 (토큰 누락, 만료, 잘못된 형식)
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          examples:
+            missing_token:
+              summary: Authorization 헤더 누락
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_002
+                  message: 인증이 필요합니다.
+            expired_token:
+              summary: 만료된 토큰
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_002
+                  message: 토큰이 만료되었습니다.
+
+    Forbidden:
+      description: 접근 권한 없음
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          examples:
+            forbidden:
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_003
+                  message: 해당 작업을 수행할 권한이 없습니다.
+
+    NotFound:
+      description: 리소스를 찾을 수 없음
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          examples:
+            not_found:
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_004
+                  message: 요청한 리소스를 찾을 수 없습니다.
+
+    Conflict:
+      description: 리소스 충돌
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          examples:
+            conflict:
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_006
+                  message: 리소스 충돌이 발생했습니다.
+
+    InternalServerError:
+      description: 서버 내부 오류
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          examples:
+            internal_error:
+              value:
+                success: false
+                error:
+                  code: AI_COMMON_010
+                  message: 서버 내부 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.

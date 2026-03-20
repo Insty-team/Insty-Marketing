@@ -1,0 +1,226 @@
+2026-03-10 15:43:25,993 [INFO] === 콘텐츠 실험 파이프라인 시작 ===
+2026-03-10 15:43:25,993 [INFO] 오늘의 키워드: ['ChatGPT business hack', 'AI tool tutorial shorts', 'AI workflow solopreneur', 'AI 1인 사업', 'AI 자동화 사업']
+2026-03-10 15:43:25,993 [INFO] === Step 1: Shorts 레퍼런스 발견 (키워드 5개) ===
+2026-03-10 15:43:25,993 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:43:26,839 [INFO] [Shorts:ChatGPT business hack] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:43:26,839 [INFO]   [ChatGPT business hack] → 0개 발견
+2026-03-10 15:43:26,840 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:43:27,533 [INFO] [Shorts:AI tool tutorial shorts] 검색 15개 → Shorts 필터 통과 8개
+2026-03-10 15:43:27,533 [INFO]   [AI tool tutorial shorts] → 8개 발견
+2026-03-10 15:43:27,533 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:43:28,059 [INFO] [Shorts:AI workflow solopreneur] 검색 6개 → Shorts 필터 통과 0개
+2026-03-10 15:43:28,059 [INFO]   [AI workflow solopreneur] → 0개 발견
+2026-03-10 15:43:28,059 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:43:28,438 [INFO] [Shorts:AI 1인 사업] 검색 1개 → Shorts 필터 통과 0개
+2026-03-10 15:43:28,438 [INFO]   [AI 1인 사업] → 0개 발견
+2026-03-10 15:43:28,439 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:43:29,122 [INFO] [Shorts:AI 자동화 사업] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:43:29,122 [INFO]   [AI 자동화 사업] → 0개 발견
+2026-03-10 15:43:29,122 [INFO] 발견 총 8개, 중복 제거 8개, 상위 8개 선정
+2026-03-10 15:43:29,122 [INFO] === Step 2: 레퍼런스 구조 분석 (3개) ===
+2026-03-10 15:43:43,759 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 15:48:35,011 [INFO] === 콘텐츠 실험 파이프라인 시작 ===
+2026-03-10 15:48:35,011 [INFO] 오늘의 키워드: ['ChatGPT business hack', 'AI tool tutorial shorts', 'AI workflow solopreneur', 'AI 1인 사업', 'AI 자동화 사업']
+2026-03-10 15:48:35,011 [INFO] === Step 1: Shorts 레퍼런스 발견 (키워드 5개) ===
+2026-03-10 15:48:35,011 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:48:35,687 [INFO] [Shorts:ChatGPT business hack] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:48:35,687 [INFO]   [ChatGPT business hack] → 0개 발견
+2026-03-10 15:48:35,688 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:48:36,377 [INFO] [Shorts:AI tool tutorial shorts] 검색 15개 → Shorts 필터 통과 8개
+2026-03-10 15:48:36,377 [INFO]   [AI tool tutorial shorts] → 8개 발견
+2026-03-10 15:48:36,377 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:48:36,912 [INFO] [Shorts:AI workflow solopreneur] 검색 6개 → Shorts 필터 통과 0개
+2026-03-10 15:48:36,912 [INFO]   [AI workflow solopreneur] → 0개 발견
+2026-03-10 15:48:36,912 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:48:37,285 [INFO] [Shorts:AI 1인 사업] 검색 1개 → Shorts 필터 통과 0개
+2026-03-10 15:48:37,285 [INFO]   [AI 1인 사업] → 0개 발견
+2026-03-10 15:48:37,285 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:48:37,835 [INFO] [Shorts:AI 자동화 사업] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:48:37,835 [INFO]   [AI 자동화 사업] → 0개 발견
+2026-03-10 15:48:37,835 [INFO] 발견 총 8개, 중복 제거 8개, 상위 8개 선정
+2026-03-10 15:48:37,835 [INFO] === Step 2: 레퍼런스 구조 분석 (3개) ===
+2026-03-10 15:48:55,842 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 15:49:17,889 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 15:49:17,910 [INFO] 레퍼런스 저장 완료: How do we use YouTube’s latest AI feature?#tutoria → 31f82061-5704-81d2-9c2d-e9e670ca4e25
+2026-03-10 15:49:17,910 [INFO]   분석 완료: How do we use YouTube’s latest AI feature?#tutoria (hook=insider_secret, format=screen_recording)
+2026-03-10 15:49:36,270 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 15:49:38,654 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 15:49:38,655 [INFO] 레퍼런스 저장 완료: How To Make Viral Skeleton Educational Shorts #sho → 31f82061-5704-811e-b2ce-d69aaa06c6dc
+2026-03-10 15:49:38,655 [INFO]   분석 완료: How To Make Viral Skeleton Educational Shorts #sho (hook=insider_secret, format=mixed)
+2026-03-10 15:49:43,481 [ERROR] 자막 추출 실패 [qvDpll9qtuY]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=qvDpll9qtuY! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-10 15:49:43,481 [WARNING] 자막 없음, 건너뜀: qvDpll9qtuY — Holi Prompt Trending Ai Boy Style Photo Editing | 
+2026-03-10 15:49:43,481 [INFO] 분석 완료: 2/3개
+2026-03-10 15:49:43,481 [INFO] === Step 3: 프로덕션 가이드 생성 (목표 1개) ===
+2026-03-10 15:50:17,852 [INFO] 프로덕션 가이드 생성 완료: 유튜브 숨겨진 AI 기능! ⏰
+2026-03-10 15:50:18,479 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2026-03-10 15:50:18,479 [ERROR] 가이드 저장 실패: Difficulty is expected to be select.
+2026-03-10 15:50:18,479 [INFO]   가이드 생성: 유튜브 숨겨진 AI 기능! ⏰
+2026-03-10 15:50:22,479 [INFO] 가이드 생성 완료: 1/3개
+2026-03-10 15:50:22,480 [INFO] 레퍼런스 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/references_20260310_155022.json (2건)
+2026-03-10 15:50:22,480 [INFO] 가이드 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/guides_20260310_155022.json (1건)
+2026-03-10 15:50:22,480 [INFO] === 파이프라인 완료: 레퍼런스 2개 분석, 가이드 1개 생성 ===
+2026-03-10 15:50:35,890 [INFO] === 콘텐츠 실험 파이프라인 시작 ===
+2026-03-10 15:50:35,890 [INFO] 오늘의 키워드: ['ChatGPT business hack', 'AI tool tutorial shorts', 'AI workflow solopreneur', 'AI 1인 사업', 'AI 자동화 사업']
+2026-03-10 15:50:35,890 [INFO] === Step 1: Shorts 레퍼런스 발견 (키워드 5개) ===
+2026-03-10 15:50:35,891 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:50:36,544 [INFO] [Shorts:ChatGPT business hack] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:50:36,544 [INFO]   [ChatGPT business hack] → 0개 발견
+2026-03-10 15:50:36,545 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:50:37,189 [INFO] [Shorts:AI tool tutorial shorts] 검색 15개 → Shorts 필터 통과 8개
+2026-03-10 15:50:37,189 [INFO]   [AI tool tutorial shorts] → 8개 발견
+2026-03-10 15:50:37,189 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:50:37,708 [INFO] [Shorts:AI workflow solopreneur] 검색 6개 → Shorts 필터 통과 0개
+2026-03-10 15:50:37,709 [INFO]   [AI workflow solopreneur] → 0개 발견
+2026-03-10 15:50:37,709 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:50:38,227 [INFO] [Shorts:AI 1인 사업] 검색 1개 → Shorts 필터 통과 0개
+2026-03-10 15:50:38,227 [INFO]   [AI 1인 사업] → 0개 발견
+2026-03-10 15:50:38,227 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:50:38,891 [INFO] [Shorts:AI 자동화 사업] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:50:38,891 [INFO]   [AI 자동화 사업] → 0개 발견
+2026-03-10 15:50:38,891 [INFO] 발견 총 8개, 중복 제거 8개, 상위 8개 선정
+2026-03-10 15:50:38,892 [INFO] === Step 2: 레퍼런스 구조 분석 (1개) ===
+2026-03-10 15:50:56,141 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 15:50:56,898 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 15:50:56,898 [INFO] 레퍼런스 저장 완료: How do we use YouTube’s latest AI feature?#tutoria → 31f82061-5704-81f9-bde9-cf5587bd5d2a
+2026-03-10 15:50:56,898 [INFO]   분석 완료: How do we use YouTube’s latest AI feature?#tutoria (hook=insider_secret, format=screen_recording)
+2026-03-10 15:51:00,898 [INFO] 분석 완료: 1/1개
+2026-03-10 15:51:00,898 [INFO] === Step 3: 프로덕션 가이드 생성 (목표 1개) ===
+2026-03-10 15:51:24,677 [INFO] 프로덕션 가이드 생성 완료: 유튜브 AI 요약? 숨겨진 꿀팁으로 시간 절약!
+2026-03-10 15:51:25,658 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 15:51:25,659 [INFO] 가이드 저장 완료: 유튜브 AI 요약? 숨겨진 꿀팁으로 시간 절약! → 31f82061-5704-81f8-8d0d-e47ddd237aed
+2026-03-10 15:51:25,659 [INFO]   가이드 생성: 유튜브 AI 요약? 숨겨진 꿀팁으로 시간 절약!
+2026-03-10 15:51:29,659 [INFO] 가이드 생성 완료: 1/3개
+2026-03-10 15:51:29,659 [INFO] 레퍼런스 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/references_20260310_155129.json (1건)
+2026-03-10 15:51:29,659 [INFO] 가이드 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/guides_20260310_155129.json (1건)
+2026-03-10 15:51:29,659 [INFO] === 파이프라인 완료: 레퍼런스 1개 분석, 가이드 1개 생성 ===
+2026-03-10 15:59:52,247 [INFO] === 콘텐츠 실험 파이프라인 시작 ===
+2026-03-10 15:59:52,247 [INFO] 레퍼런스 키워드: ['ChatGPT business hack', 'AI tool tutorial shorts', 'AI workflow solopreneur', 'AI 1인 사업', 'AI 자동화 사업']
+2026-03-10 15:59:52,247 [INFO] === Step 1: 구조 레퍼런스 발견 (키워드 5개) ===
+2026-03-10 15:59:52,247 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:59:52,950 [INFO] [Shorts:ChatGPT business hack] 검색 15개 → Shorts 필터 통과 0개
+2026-03-10 15:59:52,950 [INFO]   [Shorts:ChatGPT business hack] → 0개
+2026-03-10 15:59:52,951 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:59:53,725 [INFO] [Shorts:AI tool tutorial shorts] 검색 15개 → Shorts 필터 통과 8개
+2026-03-10 15:59:53,725 [INFO]   [Shorts:AI tool tutorial shorts] → 8개
+2026-03-10 15:59:53,725 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:59:54,277 [INFO] [Shorts:AI workflow solopreneur] 검색 6개 → Shorts 필터 통과 0개
+2026-03-10 15:59:54,277 [INFO]   [Shorts:AI workflow solopreneur] → 0개
+2026-03-10 15:59:54,278 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:59:54,830 [INFO] [Shorts:AI 1인 사업] 검색 1개 → Shorts 필터 통과 0개
+2026-03-10 15:59:54,830 [INFO]   [Shorts:AI 1인 사업] → 0개
+2026-03-10 15:59:54,831 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 15:59:55,595 [INFO] Shorts 검색 결과 없음: AI 자동화 사업
+2026-03-10 15:59:55,595 [INFO]   [Shorts:AI 자동화 사업] → 0개
+2026-03-10 15:59:55,595 [INFO] 총 8개 → 중복 제거 8개 → 상위 8개
+2026-03-10 15:59:55,595 [INFO] === Step 1b: 구조 분석 (2개) ===
+2026-03-10 16:00:17,505 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 16:00:19,171 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 16:00:19,172 [INFO] 레퍼런스 저장 완료: How do we use YouTube’s latest AI feature?#tutoria → 31f82061-5704-81cb-acf0-eec58a5ddce6
+2026-03-10 16:00:19,172 [INFO]   레퍼런스: How do we use YouTube’s latest AI featur (hook=insider_secret, format=pip_screen_face)
+2026-03-10 16:00:41,545 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 16:00:42,675 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 16:00:42,676 [INFO] 레퍼런스 저장 완료: How To Make Viral Skeleton Educational Shorts #sho → 31f82061-5704-81e5-b115-f1b74ff9f265
+2026-03-10 16:00:42,676 [INFO]   레퍼런스: How To Make Viral Skeleton Educational S (hook=insider_secret, format=mixed)
+2026-03-10 16:00:46,676 [INFO] 구조 분석 완료: 2/2개
+2026-03-10 16:00:46,676 [INFO] 콘텐츠 소싱 카테고리: multi_agent_orchestration
+2026-03-10 16:00:46,676 [INFO] 콘텐츠 키워드: ['multi agent AI workflow tutorial', 'CrewAI multi agent business automation', 'AutoGen autonomous agent team tutorial']
+2026-03-10 16:00:46,676 [INFO] === Step 2: 콘텐츠 소싱 (키워드 3개) ===
+2026-03-10 16:00:46,677 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:00:47,344 [INFO] [multi agent AI workflow tutorial] 검색 3개 → 필터 통과 3개
+2026-03-10 16:00:47,344 [INFO]   [Content:multi agent AI workflow tutorial] → 3개
+2026-03-10 16:00:47,344 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:00:47,931 [INFO] [CrewAI multi agent business automation] 검색 3개 → 필터 통과 3개
+2026-03-10 16:00:47,931 [INFO]   [Content:CrewAI multi agent business automation] → 3개
+2026-03-10 16:00:47,931 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:00:48,515 [INFO] [AutoGen autonomous agent team tutorial] 검색 3개 → 필터 통과 2개
+2026-03-10 16:00:48,515 [INFO]   [Content:AutoGen autonomous agent team tutorial] → 2개
+2026-03-10 16:00:49,589 [INFO]   자막 추출: My Multi-Agent Team with OpenClaw
+2026-03-10 16:00:52,498 [INFO]   자막 추출: Claude Code's Agent Teams Are Insane - Multiple AI
+2026-03-10 16:00:55,617 [INFO]   자막 추출: Claude Code Skills just Built me an AI Agent Team 
+2026-03-10 16:00:55,617 [INFO] 콘텐츠 소싱 완료: 3개 (자막 있음)
+2026-03-10 16:00:55,617 [INFO] === Step 3: 가이드 생성 (목표 1개) ===
+2026-03-10 16:00:55,617 [INFO]   결합: [구조] How do we use YouTube’s latest + [내용] My Multi-Agent Team with OpenC
+2026-03-10 16:01:33,079 [WARNING] 가이드 누락 필드: ['script_ko', 'editing_guide']
+2026-03-10 16:01:33,079 [INFO] 프로덕션 가이드 생성 완료: AI 팀으로 사업 확장!
+2026-03-10 16:01:34,437 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 16:01:34,437 [INFO] 가이드 저장 완료: AI 팀으로 사업 확장! → 31f82061-5704-813e-b83e-c48edef77d0d
+2026-03-10 16:01:34,438 [INFO]   → 가이드: Solo Entrepreneur's Secret: Scale with an AI Team
+2026-03-10 16:01:38,438 [INFO] 가이드 생성 완료: 1개
+2026-03-10 16:01:38,438 [INFO] 레퍼런스 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/references_20260310_160138.json (2건)
+2026-03-10 16:01:38,438 [INFO] 가이드 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/guides_20260310_160138.json (1건)
+2026-03-10 16:01:38,438 [INFO] === 파이프라인 완료: 레퍼런스 2개, 콘텐츠 3개, 가이드 1개 ===
+2026-03-10 16:13:09,401 [INFO] === 콘텐츠 실험 파이프라인 시작 ===
+2026-03-10 16:13:09,401 [INFO] 레퍼런스 키워드: ['viral AI shorts 2026', 'AI tool demo shorts', 'side hustle AI shorts', 'AI tools faceless shorts', 'faceless youtube shorts AI']
+2026-03-10 16:13:09,401 [INFO] === Step 1: 구조 레퍼런스 발견 (키워드 5개) ===
+2026-03-10 16:13:09,402 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:10,122 [INFO] [Shorts:viral AI shorts 2026] 검색 15개 → Shorts 필터 통과 12개
+2026-03-10 16:13:10,122 [INFO]   [Shorts:viral AI shorts 2026] → 12개
+2026-03-10 16:13:10,122 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:10,611 [INFO] [Shorts:AI tool demo shorts] 검색 15개 → Shorts 필터 통과 1개
+2026-03-10 16:13:10,611 [INFO]   [Shorts:AI tool demo shorts] → 1개
+2026-03-10 16:13:10,611 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:11,373 [INFO] [Shorts:side hustle AI shorts] 검색 25개 → Shorts 필터 통과 3개
+2026-03-10 16:13:11,373 [INFO]   [Shorts:side hustle AI shorts] → 3개
+2026-03-10 16:13:11,373 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:12,055 [INFO] [Shorts:AI tools faceless shorts] 검색 15개 → Shorts 필터 통과 4개
+2026-03-10 16:13:12,055 [INFO]   [Shorts:AI tools faceless shorts] → 4개
+2026-03-10 16:13:12,055 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:12,743 [INFO] [Shorts:faceless youtube shorts AI] 검색 15개 → Shorts 필터 통과 11개
+2026-03-10 16:13:12,744 [INFO]   [Shorts:faceless youtube shorts AI] → 11개
+2026-03-10 16:13:12,744 [INFO] 총 31개 → 중복 제거 26개 → 상위 10개
+2026-03-10 16:13:12,744 [INFO] === Step 1b: 구조 분석 (2개) ===
+2026-03-10 16:13:39,508 [INFO] 레퍼런스 구조 분석 완료
+2026-03-10 16:13:42,384 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 16:13:42,422 [INFO] 레퍼런스 저장 완료: He Makes 50 Lakh/Month with AI (No Camera/No Face) → 31f82061-5704-81a9-b1d4-e85bd43f1048
+2026-03-10 16:13:42,422 [INFO]   레퍼런스: He Makes 50 Lakh/Month with AI (No Camer (hook=bold_claim, format=mixed)
+2026-03-10 16:13:47,302 [ERROR] 자막 추출 실패 [EVF_CiGOdgY]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=EVF_CiGOdgY! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['en']
+
+For this video (EVF_CiGOdgY) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-10 16:13:47,302 [WARNING] 자막 없음: EVF_CiGOdgY — Happy Holi 🤭😂 #layekfam #prashulovers #p
+2026-03-10 16:13:47,302 [INFO] 구조 분석 완료: 1/2개
+2026-03-10 16:13:47,302 [INFO] 콘텐츠 소싱 카테고리: multi_agent_orchestration
+2026-03-10 16:13:47,302 [INFO] 콘텐츠 키워드: ['multi agent AI workflow tutorial', 'CrewAI multi agent business automation', 'AutoGen autonomous agent team tutorial']
+2026-03-10 16:13:47,303 [INFO] === Step 2: 콘텐츠 소싱 (키워드 3개) ===
+2026-03-10 16:13:47,303 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:47,916 [INFO] [multi agent AI workflow tutorial] 검색 3개 → 필터 통과 3개
+2026-03-10 16:13:47,916 [INFO]   [Content:multi agent AI workflow tutorial] → 3개
+2026-03-10 16:13:47,916 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:48,475 [INFO] [CrewAI multi agent business automation] 검색 3개 → 필터 통과 1개
+2026-03-10 16:13:48,475 [INFO]   [Content:CrewAI multi agent business automation] → 1개
+2026-03-10 16:13:48,475 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-10 16:13:49,130 [INFO] [AutoGen autonomous agent team tutorial] 검색 25개 → 필터 통과 8개
+2026-03-10 16:13:49,130 [INFO]   [Content:AutoGen autonomous agent team tutorial] → 8개
+2026-03-10 16:13:50,757 [INFO]   자막 추출: Agentic Workflows Just Changed AI Automation Forev
+2026-03-10 16:13:53,460 [INFO]   자막 추출: How I’d Teach a 10 Year Old to Build Agentic Workf
+2026-03-10 16:13:56,481 [INFO]   자막 추출: Claude Code's Agent Teams Are Insane - Multiple AI
+2026-03-10 16:13:56,481 [INFO] 콘텐츠 소싱 완료: 3개 (자막 있음)
+2026-03-10 16:13:56,481 [INFO] === Step 3: 가이드 생성 (목표 1개) ===
+2026-03-10 16:13:56,481 [INFO]   결합: [구조] He Makes 50 Lakh/Month with AI + [내용] Agentic Workflows Just Changed
+2026-03-10 16:14:40,090 [WARNING] 가이드 누락 필드: ['script_ko', 'editing_guide']
+2026-03-10 16:14:40,090 [INFO] 프로덕션 가이드 생성 완료: AI 자동화의 판도를 바꿀 에이전트 AI!
+2026-03-10 16:14:41,389 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-03-10 16:14:41,390 [INFO] 가이드 저장 완료: AI 자동화의 판도를 바꿀 에이전트 AI! → 31f82061-5704-815b-87ba-f6807428d1fe
+2026-03-10 16:14:41,390 [INFO]   → 가이드: Your AI Automations Are BROKEN! Agentic AI Changes EVERYTHING
+2026-03-10 16:14:45,390 [INFO] 가이드 생성 완료: 1개
+2026-03-10 16:14:45,390 [INFO] 레퍼런스 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/references_20260310_161445.json (1건)
+2026-03-10 16:14:45,390 [INFO] 가이드 백업: /home/samwoo/github_repos/insty-marketing/output/experiment/guides_20260310_161445.json (1건)
+2026-03-10 16:14:45,390 [INFO] === 파이프라인 완료: 레퍼런스 1개, 콘텐츠 3개, 가이드 1개 ===

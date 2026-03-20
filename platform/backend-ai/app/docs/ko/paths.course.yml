@@ -1,0 +1,102 @@
+paths:
+  ai_courses_purchase_assistant:
+    summary: 구매 상담 챗봇 - 영상 적합성 판단 및 피드백 제공
+    description: >
+      사용자의 조건과 영상 데이터를 기반으로 해당 영상이 적합한지 AI가 진단하고 피드백을 제공합니다.  
+      1인당 1강의에 대해 **최대 2회까지 요청 가능**하며, 초과 시 추가 응답이 제한됩니다.
+    tags: ["courses"]
+    security:
+      - bearerAuth: []
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              course_id:
+                type: integer
+                description: 판단할 강의의 ID
+                example: 2006
+              query:
+                type: string
+                description: 사용자의 조건 또는 환경 설명
+                example: "나는 윈도우를 사용중이고 현재 내 컴퓨터 사양은 16GB 메모리를 가지고 있어"
+    responses:
+      "200":
+        description: 성공 (최대 2회 요청 가능)
+        content:
+          application/json:
+            examples:
+              success_first:
+                summary: 첫 번째 요청 성공
+                value:
+                  success: true
+                  data:
+                    recommendation: "이 영상은 맥 OS에서 플러터 환경을 설정하는 내용에 집중되어 있어 주로 맥 사용자에게 도움이 됩니다."
+                    judgment: "다소 부족"
+                    reasons:
+                      - "강의 내용이 주로 맥 OS에서의 환경 설정에 중점을 두고 있습니다."
+                      - "사용자는 윈도우를 사용하고 있어, 강의 내용이 직접적으로 도움이 되지 않을 수 있습니다."
+                      - "윈도우 환경에서의 설정에 대한 정보를 찾는 것이 더 유용할 수 있습니다."
+                    usage_count: 1
+              success_second:
+                summary: 두 번째 요청 성공
+                value:
+                  success: true
+                  data:
+                    recommendation: "이 영상은 사용자의 환경과 대체로 잘 맞습니다."
+                    judgment: "적합"
+                    reasons:
+                      - "강의 주제가 사용자의 환경과 일치합니다."
+                      - "실습 환경도 동일하여 바로 따라할 수 있습니다."
+                    usage_count: 2
+              exceeded_limit:
+                summary: 요청 횟수 초과
+                value:
+                  success: true
+                  data:
+                    recommendation: "챗봇 무료 사용 가능 횟수를 모두 사용하셨습니다. 추가 요청은 불가합니다."
+                    judgment: "판단 불가"
+                    reasons:
+                      - "무료 사용 횟수를 초과하여 AI 진단이 제공되지 않았습니다."
+                    usage_count: 2
+      "400":
+        $ref: "#/components/responses/BadRequest"
+      "401":
+        $ref: "#/components/responses/Unauthorized"
+      "500":
+        $ref: "#/components/responses/InternalServerError"
+
+  ai_courses_purchase_assistant_usage_info:
+    summary: 구매 상담 챗봇 사용 횟수 조회
+    description: >
+      사용자가 특정 강의에 대해 구매 상담 챗봇을 몇 번 사용했는지 확인합니다.  
+      **최대 2회 요청 가능**이며, 남은 횟수(`remaining`)를 함께 제공합니다.
+    tags: ["courses"]
+    security:
+      - bearerAuth: []
+    parameters:
+      - name: course_id
+        in: query
+        required: true
+        description: 조회할 강의의 ID
+        schema:
+          type: integer
+          example: 2006
+    responses:
+      "200":
+        description: 성공 (사용 횟수 정보 반환)
+        content:
+          application/json:
+            example:
+              success: true
+              data:
+                usage_count: 0
+                remaining: 2
+      "400":
+        $ref: "#/components/responses/BadRequest"
+      "401":
+        $ref: "#/components/responses/Unauthorized"
+      "500":
+        $ref: "#/components/responses/InternalServerError"

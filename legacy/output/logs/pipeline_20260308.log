@@ -1,0 +1,599 @@
+2026-03-08 14:08:39,462 [INFO] === 파이프라인 시작 ===
+2026-03-08 14:08:39,462 [INFO] 오늘의 카테고리: automation
+2026-03-08 14:08:39,462 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-08 14:08:40,238 [INFO] [Zapier workflow automation tips] 검색 5개 → 필터 통과 2개
+2026-03-08 14:08:40,239 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-08 14:08:40,879 [INFO] [Make.com automation tutorial] 검색 5개 → 필터 통과 2개
+2026-03-08 14:08:40,880 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-08 14:08:41,652 [INFO] [Automate small business tasks] 검색 5개 → 필터 통과 1개
+2026-03-08 14:08:41,653 [INFO] 발굴 영상: 5개
+2026-03-08 14:08:41,653 [INFO] --- 콘셉트: tutorial ---
+2026-03-08 14:08:41,653 [INFO] [tutorial] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:08:56,044 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:08:56,328 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:08:56,329 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:08:56,533 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:08:56,533 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:08:56,534 [INFO] [tutorial] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:09:09,358 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:09:09,695 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:09,695 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:10,159 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:10,159 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:10,159 [INFO] [tutorial] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:09:26,496 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:09:26,718 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:26,719 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:26,915 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:26,918 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:26,918 [INFO] [tutorial] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:09:43,045 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:09:43,232 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:43,232 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:43,739 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:43,739 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:43,739 [INFO] [tutorial] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:09:58,701 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:09:58,978 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:58,978 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:59,174 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:09:59,174 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:09:59,174 [INFO] --- 콘셉트: tips ---
+2026-03-08 14:09:59,174 [INFO] [tips] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:10:14,027 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:10:14,486 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:14,486 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:10:14,715 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:14,716 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:10:14,716 [INFO] [tips] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:10:29,432 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:10:29,938 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:29,996 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:10:30,204 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:30,204 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:10:30,204 [INFO] [tips] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:10:42,816 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:10:43,040 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:43,040 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:10:43,369 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:43,369 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:10:43,369 [INFO] [tips] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:10:59,598 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:10:59,863 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:10:59,864 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:00,074 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:00,075 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:00,075 [INFO] [tips] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:11:19,368 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:11:19,600 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:19,601 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:19,848 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:19,849 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:19,849 [INFO] --- 콘셉트: celebrity ---
+2026-03-08 14:11:19,849 [INFO] [celebrity] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:11:31,572 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:11:31,781 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:31,782 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:31,979 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:31,979 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:31,979 [INFO] [celebrity] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:11:45,653 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-03-08 14:11:45,860 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:45,861 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:46,067 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-03-08 14:11:46,067 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-03-08 14:11:46,067 [INFO] [celebrity] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:11:47,503 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:47,504 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:11:47,504 [INFO] [celebrity] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:11:48,883 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:48,883 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:11:48,883 [INFO] [celebrity] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:11:50,210 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:50,210 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:11:50,210 [INFO] --- 콘셉트: numbered_tips ---
+2026-03-08 14:11:50,210 [INFO] [numbered_tips] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:11:51,514 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:51,514 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:11:51,514 [INFO] [numbered_tips] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:11:53,163 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:53,163 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:11:53,163 [INFO] [numbered_tips] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:11:54,373 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:54,373 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:11:54,373 [INFO] [numbered_tips] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:11:55,633 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:55,633 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:11:55,633 [INFO] [numbered_tips] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:11:57,228 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:57,229 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:11:57,229 [INFO] --- 콘셉트: numbered_lessons ---
+2026-03-08 14:11:57,229 [INFO] [numbered_lessons] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:11:58,398 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:58,398 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:11:58,398 [INFO] [numbered_lessons] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:11:59,810 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:11:59,811 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:11:59,811 [INFO] [numbered_lessons] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:12:01,238 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:12:01,238 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:12:01,238 [INFO] [numbered_lessons] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:12:02,473 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:12:02,473 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:12:02,473 [INFO] [numbered_lessons] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:12:03,702 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:12:03,702 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:12:03,703 [INFO] CSV 저장: /app/output/csv/discovery_20260308_141203.csv (5건)
+2026-03-08 14:12:03,703 [INFO] CSV 저장: /app/output/csv/processed_20260308_141203.csv (12건)
+2026-03-08 14:12:03,703 [INFO] === 파이프라인 완료: 발굴 5개, 처리 12개 (말하기 12 + 자막 0) ===
+2026-03-08 14:19:30,807 [INFO] === 파이프라인 시작 ===
+2026-03-08 14:19:30,807 [INFO] 오늘의 카테고리: automation
+2026-03-08 14:19:30,808 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-08 14:19:31,543 [INFO] [Zapier workflow automation tips] 검색 5개 → 필터 통과 3개
+2026-03-08 14:19:31,543 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-08 14:19:32,205 [INFO] [Make.com automation tutorial] 검색 5개 → 필터 통과 2개
+2026-03-08 14:19:32,206 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-03-08 14:19:32,935 [INFO] [Automate small business tasks] 검색 5개 → 필터 통과 1개
+2026-03-08 14:19:32,935 [INFO] 발굴 영상: 6개
+2026-03-08 14:19:32,935 [INFO] --- 콘셉트: tutorial ---
+2026-03-08 14:19:32,935 [INFO] [tutorial] 처리 중: NEW ChatGPT Agent Builder: From Zero to Automation Hero (202
+2026-03-08 14:19:34,622 [ERROR] 자막 추출 실패 [YlqXKDP1c5k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YlqXKDP1c5k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:34,622 [WARNING] 자막 없음, 건너뜀: YlqXKDP1c5k
+2026-03-08 14:19:34,622 [INFO] [tutorial] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:19:37,489 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:37,490 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:19:37,490 [INFO] [tutorial] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:19:40,948 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:40,948 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:19:40,948 [INFO] [tutorial] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:19:43,282 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:43,283 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:19:43,283 [INFO] [tutorial] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:19:46,300 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:46,300 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:19:46,300 [INFO] --- 콘셉트: tips ---
+2026-03-08 14:19:46,300 [INFO] [tips] 처리 중: NEW ChatGPT Agent Builder: From Zero to Automation Hero (202
+2026-03-08 14:19:49,416 [ERROR] 자막 추출 실패 [YlqXKDP1c5k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YlqXKDP1c5k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:49,416 [WARNING] 자막 없음, 건너뜀: YlqXKDP1c5k
+2026-03-08 14:19:49,416 [INFO] [tips] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:19:52,547 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:52,547 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:19:52,547 [INFO] [tips] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:19:55,207 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:55,207 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:19:55,207 [INFO] [tips] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:19:58,641 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:19:58,641 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:19:58,641 [INFO] [tips] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:20:01,678 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:01,678 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:20:01,678 [INFO] --- 콘셉트: celebrity ---
+2026-03-08 14:20:01,678 [INFO] [celebrity] 처리 중: NEW ChatGPT Agent Builder: From Zero to Automation Hero (202
+2026-03-08 14:20:04,679 [ERROR] 자막 추출 실패 [YlqXKDP1c5k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YlqXKDP1c5k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:04,679 [WARNING] 자막 없음, 건너뜀: YlqXKDP1c5k
+2026-03-08 14:20:04,680 [INFO] [celebrity] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:20:07,318 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:07,318 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:20:07,318 [INFO] [celebrity] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:20:10,509 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:10,509 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:20:10,509 [INFO] [celebrity] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:20:13,410 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:13,410 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:20:13,410 [INFO] [celebrity] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:20:16,220 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:16,220 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:20:16,220 [INFO] --- 콘셉트: numbered_tips ---
+2026-03-08 14:20:16,220 [INFO] [numbered_tips] 처리 중: NEW ChatGPT Agent Builder: From Zero to Automation Hero (202
+2026-03-08 14:20:19,527 [ERROR] 자막 추출 실패 [YlqXKDP1c5k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YlqXKDP1c5k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:19,528 [WARNING] 자막 없음, 건너뜀: YlqXKDP1c5k
+2026-03-08 14:20:19,528 [INFO] [numbered_tips] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:20:21,838 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:21,838 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:20:21,838 [INFO] [numbered_tips] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:20:25,239 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:25,239 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:20:25,239 [INFO] [numbered_tips] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:20:28,189 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:28,189 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:20:28,189 [INFO] [numbered_tips] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:20:31,094 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:31,094 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:20:31,094 [INFO] --- 콘셉트: numbered_lessons ---
+2026-03-08 14:20:31,094 [INFO] [numbered_lessons] 처리 중: NEW ChatGPT Agent Builder: From Zero to Automation Hero (202
+2026-03-08 14:20:34,768 [ERROR] 자막 추출 실패 [YlqXKDP1c5k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YlqXKDP1c5k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:34,769 [WARNING] 자막 없음, 건너뜀: YlqXKDP1c5k
+2026-03-08 14:20:34,769 [INFO] [numbered_lessons] 처리 중: How I Automated My Business With ChatGPT & Zapier
+2026-03-08 14:20:37,279 [ERROR] 자막 추출 실패 [KDvFJ4R-S2I]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=KDvFJ4R-S2I! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:37,279 [WARNING] 자막 없음, 건너뜀: KDvFJ4R-S2I
+2026-03-08 14:20:37,279 [INFO] [numbered_lessons] 처리 중: Zapier AI Beginners Tutorial: Agents & Automations Made Simp
+2026-03-08 14:20:40,339 [ERROR] 자막 추출 실패 [m-kWrOvA49U]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=m-kWrOvA49U! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:40,339 [WARNING] 자막 없음, 건너뜀: m-kWrOvA49U
+2026-03-08 14:20:40,339 [INFO] [numbered_lessons] 처리 중: Make.com Tutorial for Beginners (2026) – Full Guide
+2026-03-08 14:20:43,277 [ERROR] 자막 추출 실패 [SVkiqiSVo3k]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SVkiqiSVo3k! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:43,277 [WARNING] 자막 없음, 건너뜀: SVkiqiSVo3k
+2026-03-08 14:20:43,277 [INFO] [numbered_lessons] 처리 중: Learn Make.com in 6 Minutes: Workflow Automation Tutorial fo
+2026-03-08 14:20:46,114 [ERROR] 자막 추출 실패 [UL76TS335Vs]: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=UL76TS335Vs! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+2026-03-08 14:20:46,114 [WARNING] 자막 없음, 건너뜀: UL76TS335Vs
+2026-03-08 14:20:46,114 [INFO] CSV 저장: /app/output/csv/discovery_20260308_142046.csv (6건)
+2026-03-08 14:20:46,114 [INFO] === 파이프라인 완료: 발굴 6개, 처리 0개 (말하기 0 + 자막 0) ===

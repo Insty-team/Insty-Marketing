@@ -1,0 +1,84 @@
+2026-02-28 10:32:12,751 [INFO] === 파이프라인 시작 ===
+2026-02-28 10:32:12,752 [INFO] 오늘의 카테고리: ai_tools
+2026-02-28 10:32:12,752 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-28 10:32:13,385 [INFO] [Best AI tools solopreneurs] 검색 5개 → 필터 통과 5개
+2026-02-28 10:32:13,386 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-28 10:32:14,003 [INFO] [Top AI content creation] 검색 5개 → 필터 통과 5개
+2026-02-28 10:32:14,003 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-28 10:32:14,629 [INFO] [AI writing assistants compared] 검색 5개 → 필터 통과 1개
+2026-02-28 10:32:14,629 [INFO] 발굴 영상: 11개
+2026-02-28 10:32:14,629 [INFO] 처리 중: I Tested 500+ AI Tools, These 10 Will Make You Rich
+2026-02-28 10:32:27,309 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-02-28 10:32:28,130 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-02-28 10:32:28,130 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 10:32:28,354 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2026-02-28 10:32:28,355 [ERROR] Notion 저장 실패: body failed validation: body.children[13].paragraph.rich_text[0].text.content should be a string, instead was `["#AItools","#Solopreneur","#BusinessAutomation","#NoCo...`.
+2026-02-28 10:32:28,355 [INFO] 처리 중: I Tested 500+ AI Tools, These 12 Will Blow Up Your Business
+2026-02-28 10:32:41,254 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-02-28 10:32:41,451 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-02-28 10:32:41,452 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 10:32:41,775 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2026-02-28 10:32:41,775 [ERROR] Notion 저장 실패: body failed validation: body.children[13].paragraph.rich_text[0].text.content should be a string, instead was `["#AIAutomation","#BusinessGrowth","#SolopreneurLife","...`.
+2026-02-28 10:32:41,775 [INFO] 처리 중: How To Build a One Person Solo Business Using AI!
+2026-02-28 10:33:00,267 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-02-28 10:33:00,685 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-02-28 10:33:00,685 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 10:33:00,913 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2026-02-28 10:33:00,914 [ERROR] Notion 저장 실패: body failed validation: body.children[13].paragraph.rich_text[0].text.content should be a string, instead was `["#solopreneur","#ai","#aibusiness","#startups","#onlin...`.
+2026-02-28 10:33:00,914 [INFO] 처리 중: How Google’s FREE AI Tools Can Build a Full Business in 1 Da
+2026-02-28 10:33:12,901 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-02-28 10:33:13,140 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-02-28 10:33:13,140 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 10:33:13,355 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2026-02-28 10:33:13,355 [ERROR] Notion 저장 실패: body failed validation: body.children[13].paragraph.rich_text[0].text.content should be a string, instead was `["#AIForBusiness","#SolopreneurLife","#GoogleAI","#Busi...`.
+2026-02-28 10:33:13,355 [INFO] 처리 중: 10 AI Tools to Make Your First Million in 2026 (for real)
+2026-02-28 10:33:26,979 [INFO] Reels 스크립트 생성 완료 (Gemini)
+2026-02-28 10:33:27,191 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-02-28 10:33:27,191 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 10:33:27,418 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2026-02-28 10:33:27,419 [ERROR] Notion 저장 실패: body failed validation: body.children[13].paragraph.rich_text[0].text.content should be a string, instead was `["#AIforBusiness","#Solopreneur","#AITools","#OnlineBus...`.
+2026-02-28 10:33:27,419 [INFO] CSV 저장: /app/output/csv/discovery_20260228_103327.csv (11건)
+2026-02-28 10:33:27,419 [INFO] CSV 저장: /app/output/csv/processed_20260228_103327.csv (5건)
+2026-02-28 10:33:27,419 [INFO] === 파이프라인 완료: 발굴 11개, 처리 5개 ===
+2026-02-28 11:22:42,417 [INFO] === 파이프라인 시작 ===
+2026-02-28 11:22:42,418 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-28 11:22:43,005 [INFO] [Best AI tools solopreneurs] 검색 1개 → 필터 통과 1개
+2026-02-28 11:22:43,006 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-28 11:22:43,783 [INFO] [Top AI content creation] 검색 25개 → 필터 통과 22개
+2026-02-28 11:22:43,784 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-28 11:22:44,395 [INFO] [AI writing assistants compared] 검색 1개 → 필터 통과 0개
+2026-02-28 11:22:44,395 [INFO] 발굴 영상: 23개
+2026-02-28 11:22:44,395 [INFO] --- 콘셉트: numbered_tips ---
+2026-02-28 11:22:44,395 [INFO] [numbered_tips] 처리 중: I Tested 500+ AI Tools, These 12 Will Blow Up Your Business
+2026-02-28 11:22:46,167 [WARNING] Gemini rate limit, 25초 대기 후 재시도 (1/3)
+2026-02-28 11:23:11,518 [WARNING] Gemini rate limit, 50초 대기 후 재시도 (2/3)
+2026-02-28 11:24:01,972 [ERROR] Gemini 스크립트 생성 실패: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 58.270143038s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2026-02-28 11:24:02,251 [INFO] HTTP Request: POST https://api.notion.com/v1/databases/07c1720afe6f4574ac837db9bcd4ad70/query "HTTP/1.1 404 Not Found"
+2026-02-28 11:24:02,251 [ERROR] Notion 중복 체크 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 11:24:02,457 [INFO] HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 404 Not Found"
+2026-02-28 11:24:02,458 [ERROR] Notion 저장 실패: Could not find database with ID: 07c1720a-fe6f-4574-ac83-7db9bcd4ad70. Make sure the relevant pages and databases are shared with your integration.
+2026-02-28 11:24:02,458 [INFO] CSV 저장: /app/output/csv/discovery_20260228_112402.csv (23건)
+2026-02-28 11:24:02,458 [INFO] CSV 저장: /app/output/csv/processed_20260228_112402.csv (1건)
+2026-02-28 11:24:02,458 [INFO] === 파이프라인 완료: 발굴 23개, 처리 1개 (말하기 0 + 자막 1) ===
